@@ -1,10 +1,10 @@
-﻿using Com.Ambassador.Service.Inventory.Lib.ViewModels.FpReturnFromBuyers;
+﻿using Com.Efrata.Service.Inventory.Lib.ViewModels.FpReturnFromBuyers;
 using System;
 using System.Collections.Generic;
 using System.Text;
 using Xunit;
 
-namespace Com.Ambassador.Service.Inventory.Test.ViewModels.FpReturnFromBuyers
+namespace Com.Efrata.Service.Inventory.Test.ViewModels.FpReturnFromBuyers
 {
     public class FpReturnFromBuyerDetailViewModelTest
     {

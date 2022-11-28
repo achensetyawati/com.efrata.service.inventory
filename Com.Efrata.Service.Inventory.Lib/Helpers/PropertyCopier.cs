@@ -2,7 +2,7 @@
 using System.Dynamic;
 using System.Linq;
 
-namespace Com.Ambassador.Service.Inventory.Lib.Helpers
+namespace Com.Efrata.Service.Inventory.Lib.Helpers
 {
     public class PropertyCopier<OriginClass, DestinationClass>
         where OriginClass : class

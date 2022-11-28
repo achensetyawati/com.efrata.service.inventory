@@ -1,5 +1,5 @@
-﻿using Com.Ambassador.Service.Inventory.Lib.Models.InventoryWeavingModel;
-using Com.Ambassador.Service.Inventory.Lib.ViewModels.InventoryWeavingViewModel.Report;
+﻿using Com.Efrata.Service.Inventory.Lib.Models.InventoryWeavingModel;
+using Com.Efrata.Service.Inventory.Lib.ViewModels.InventoryWeavingViewModel.Report;
 using Com.Moonlay.Models;
 using Com.Moonlay.NetCore.Lib;
 using Microsoft.EntityFrameworkCore;
@@ -9,14 +9,14 @@ using System.Text;
 using System.Linq;
 using Microsoft.Extensions.DependencyInjection;
 using System.Threading.Tasks;
-using Com.Ambassador.Service.Inventory.Lib.ViewModels.InventoryWeavingViewModel;
+using Com.Efrata.Service.Inventory.Lib.ViewModels.InventoryWeavingViewModel;
 using System.IO;
 using OfficeOpenXml.Style;
 using OfficeOpenXml;
 using System.Data;
 using System.Globalization;
 
-namespace Com.Ambassador.Service.Inventory.Lib.Services.InventoryWeaving.Reports.ReportRecapStockGreigePerType
+namespace Com.Efrata.Service.Inventory.Lib.Services.InventoryWeaving.Reports.ReportRecapStockGreigePerType
 {
     public class ReportRecapStockGreigePerTypeService : IReportRecapStockGreigePerTypeService
     {

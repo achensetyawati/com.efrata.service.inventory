@@ -1,4 +1,4 @@
-﻿using Com.Ambassador.Service.Inventory.Lib.Services;
+﻿using Com.Efrata.Service.Inventory.Lib.Services;
 using Com.Moonlay.Models;
 using Microsoft.Extensions.DependencyInjection;
 using System;
@@ -6,7 +6,7 @@ using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
 using System.Linq;
 
-namespace Com.Ambassador.Service.Inventory.Lib.Models.MaterialsRequestNoteModel
+namespace Com.Efrata.Service.Inventory.Lib.Models.MaterialsRequestNoteModel
 {
     public class MaterialsRequestNote : StandardEntity, IValidatableObject
     {

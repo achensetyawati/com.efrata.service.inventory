@@ -1,11 +1,11 @@
-﻿using Com.Ambassador.Service.Inventory.Lib.Models;
+﻿using Com.Efrata.Service.Inventory.Lib.Models;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Metadata.Builders;
 using System;
 using System.Collections.Generic;
 using System.Text;
 
-namespace Com.Ambassador.Service.Inventory.Lib.Configs
+namespace Com.Efrata.Service.Inventory.Lib.Configs
 {
     public class FpRegradingResultDocsConfig : IEntityTypeConfiguration<FpRegradingResultDocs>
     {

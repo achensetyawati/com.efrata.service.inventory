@@ -1,10 +1,10 @@
-﻿using Com.Ambassador.Service.Inventory.Lib;
-using Com.Ambassador.Service.Inventory.Lib.Enums;
-using Com.Ambassador.Service.Inventory.Lib.Models.GarmentLeftoverWarehouse.Stock;
-using Com.Ambassador.Service.Inventory.Lib.Services;
-using Com.Ambassador.Service.Inventory.Lib.Services.GarmentLeftoverWarehouse.Stock;
-using Com.Ambassador.Service.Inventory.Lib.ViewModels;
-using Com.Ambassador.Service.Inventory.Lib.ViewModels.GarmentLeftoverWarehouse.Stock;
+﻿using Com.Efrata.Service.Inventory.Lib;
+using Com.Efrata.Service.Inventory.Lib.Enums;
+using Com.Efrata.Service.Inventory.Lib.Models.GarmentLeftoverWarehouse.Stock;
+using Com.Efrata.Service.Inventory.Lib.Services;
+using Com.Efrata.Service.Inventory.Lib.Services.GarmentLeftoverWarehouse.Stock;
+using Com.Efrata.Service.Inventory.Lib.ViewModels;
+using Com.Efrata.Service.Inventory.Lib.ViewModels.GarmentLeftoverWarehouse.Stock;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Diagnostics;
 using Moq;
@@ -17,7 +17,7 @@ using System.Text;
 using System.Threading.Tasks;
 using Xunit;
 
-namespace Com.Ambassador.Service.Inventory.Test.Services.GarmentLeftoverWarehouse.Stock
+namespace Com.Efrata.Service.Inventory.Test.Services.GarmentLeftoverWarehouse.Stock
 {
     public class GarmentLeftoverWarehouseStockTest
     {

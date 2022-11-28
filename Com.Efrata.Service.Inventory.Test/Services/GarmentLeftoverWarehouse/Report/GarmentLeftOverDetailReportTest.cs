@@ -4,33 +4,33 @@ using System.Diagnostics;
 using System.Runtime.CompilerServices;
 using System.Text;
 using System.Threading.Tasks;
-using Com.Ambassador.Service.Inventory.Lib;
-using Com.Ambassador.Service.Inventory.Lib.Models.GarmentLeftoverWarehouse.Stock;
-using Com.Ambassador.Service.Inventory.Lib.Services;
-using Com.Ambassador.Service.Inventory.Lib.Services.GarmentLeftoverWarehouse.BalanceStock;
-using Com.Ambassador.Service.Inventory.Lib.Services.GarmentLeftoverWarehouse.ExpenditureAccessories;
-using Com.Ambassador.Service.Inventory.Lib.Services.GarmentLeftoverWarehouse.ExpenditureFabric;
-using Com.Ambassador.Service.Inventory.Lib.Services.GarmentLeftoverWarehouse.ExpenditureFinishedGood;
-using Com.Ambassador.Service.Inventory.Lib.Services.GarmentLeftoverWarehouse.GarmentLeftoverWarehouseReceiptFabricServices;
-using Com.Ambassador.Service.Inventory.Lib.Services.GarmentLeftoverWarehouse.GarmentLeftoverWarehouseReceiptFinishedGoodServices;
-using Com.Ambassador.Service.Inventory.Lib.Services.GarmentLeftoverWarehouse.ReceiptAccessories;
-using Com.Ambassador.Service.Inventory.Lib.Services.GarmentLeftoverWarehouse.Report.Bookkeeping;
-using Com.Ambassador.Service.Inventory.Lib.Services.GarmentLeftoverWarehouse.Stock;
-using Com.Ambassador.Service.Inventory.Test.DataUtils.GarmentLeftoverWarehouse.BalanceStock;
-using Com.Ambassador.Service.Inventory.Test.DataUtils.GarmentLeftoverWarehouse.ExpenditureAccessories;
-using Com.Ambassador.Service.Inventory.Test.DataUtils.GarmentLeftoverWarehouse.ExpenditureFabric;
-using Com.Ambassador.Service.Inventory.Test.DataUtils.GarmentLeftoverWarehouse.ExpenditureFinishedGood;
-using Com.Ambassador.Service.Inventory.Test.DataUtils.GarmentLeftoverWarehouse.GarmentLeftoverWarehouseReceiptFabricDataUtils;
-using Com.Ambassador.Service.Inventory.Test.DataUtils.GarmentLeftoverWarehouse.GarmentLeftoverWarehouseReceiptFinishedGoodDataUtils;
-using Com.Ambassador.Service.Inventory.Test.DataUtils.GarmentLeftoverWarehouse.ReceiptAccessories;
-using Com.Ambassador.Service.Inventory.Test.DataUtils.GarmentLeftoverWarehouse.Stock;
-using Com.Ambassador.Service.Inventory.Test.Helpers;
+using Com.Efrata.Service.Inventory.Lib;
+using Com.Efrata.Service.Inventory.Lib.Models.GarmentLeftoverWarehouse.Stock;
+using Com.Efrata.Service.Inventory.Lib.Services;
+using Com.Efrata.Service.Inventory.Lib.Services.GarmentLeftoverWarehouse.BalanceStock;
+using Com.Efrata.Service.Inventory.Lib.Services.GarmentLeftoverWarehouse.ExpenditureAccessories;
+using Com.Efrata.Service.Inventory.Lib.Services.GarmentLeftoverWarehouse.ExpenditureFabric;
+using Com.Efrata.Service.Inventory.Lib.Services.GarmentLeftoverWarehouse.ExpenditureFinishedGood;
+using Com.Efrata.Service.Inventory.Lib.Services.GarmentLeftoverWarehouse.GarmentLeftoverWarehouseReceiptFabricServices;
+using Com.Efrata.Service.Inventory.Lib.Services.GarmentLeftoverWarehouse.GarmentLeftoverWarehouseReceiptFinishedGoodServices;
+using Com.Efrata.Service.Inventory.Lib.Services.GarmentLeftoverWarehouse.ReceiptAccessories;
+using Com.Efrata.Service.Inventory.Lib.Services.GarmentLeftoverWarehouse.Report.Bookkeeping;
+using Com.Efrata.Service.Inventory.Lib.Services.GarmentLeftoverWarehouse.Stock;
+using Com.Efrata.Service.Inventory.Test.DataUtils.GarmentLeftoverWarehouse.BalanceStock;
+using Com.Efrata.Service.Inventory.Test.DataUtils.GarmentLeftoverWarehouse.ExpenditureAccessories;
+using Com.Efrata.Service.Inventory.Test.DataUtils.GarmentLeftoverWarehouse.ExpenditureFabric;
+using Com.Efrata.Service.Inventory.Test.DataUtils.GarmentLeftoverWarehouse.ExpenditureFinishedGood;
+using Com.Efrata.Service.Inventory.Test.DataUtils.GarmentLeftoverWarehouse.GarmentLeftoverWarehouseReceiptFabricDataUtils;
+using Com.Efrata.Service.Inventory.Test.DataUtils.GarmentLeftoverWarehouse.GarmentLeftoverWarehouseReceiptFinishedGoodDataUtils;
+using Com.Efrata.Service.Inventory.Test.DataUtils.GarmentLeftoverWarehouse.ReceiptAccessories;
+using Com.Efrata.Service.Inventory.Test.DataUtils.GarmentLeftoverWarehouse.Stock;
+using Com.Efrata.Service.Inventory.Test.Helpers;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Diagnostics;
 using Moq;
 using Xunit;
 
-namespace Com.Ambassador.Service.Inventory.Test.Services.GarmentLeftoverWarehouse.Report
+namespace Com.Efrata.Service.Inventory.Test.Services.GarmentLeftoverWarehouse.Report
 {
     public class GarmentLeftOverDetailReportTest
     {

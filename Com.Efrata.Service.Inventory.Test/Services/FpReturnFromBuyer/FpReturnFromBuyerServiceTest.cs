@@ -1,12 +1,12 @@
-﻿using Com.Ambassador.Service.Inventory.Lib;
-using Com.Ambassador.Service.Inventory.Lib.Models.FpReturnFromBuyers;
-using Com.Ambassador.Service.Inventory.Lib.Models.InventoryModel;
-using Com.Ambassador.Service.Inventory.Lib.Services;
-using Com.Ambassador.Service.Inventory.Lib.Services.FpReturnFromBuyers;
-using Com.Ambassador.Service.Inventory.Lib.Services.Inventory;
-using Com.Ambassador.Service.Inventory.Lib.ViewModels.FpReturnFromBuyers;
-using Com.Ambassador.Service.Inventory.Test.DataUtils.FpReturnFromBuyerDataUtil;
-using Com.Ambassador.Service.Inventory.Test.Helpers;
+﻿using Com.Efrata.Service.Inventory.Lib;
+using Com.Efrata.Service.Inventory.Lib.Models.FpReturnFromBuyers;
+using Com.Efrata.Service.Inventory.Lib.Models.InventoryModel;
+using Com.Efrata.Service.Inventory.Lib.Services;
+using Com.Efrata.Service.Inventory.Lib.Services.FpReturnFromBuyers;
+using Com.Efrata.Service.Inventory.Lib.Services.Inventory;
+using Com.Efrata.Service.Inventory.Lib.ViewModels.FpReturnFromBuyers;
+using Com.Efrata.Service.Inventory.Test.DataUtils.FpReturnFromBuyerDataUtil;
+using Com.Efrata.Service.Inventory.Test.Helpers;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Diagnostics;
 using Moq;
@@ -20,7 +20,7 @@ using System.Text;
 using System.Threading.Tasks;
 using Xunit;
 
-namespace Com.Ambassador.Service.Inventory.Test.Services.FpReturnFromBuyer
+namespace Com.Efrata.Service.Inventory.Test.Services.FpReturnFromBuyer
 {
     public class FpReturnFromBuyerServiceTest
     {

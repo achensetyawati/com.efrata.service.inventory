@@ -1,12 +1,12 @@
-﻿using Com.Ambassador.Service.Inventory.Lib.Models.FpReturnFromBuyers;
-using Com.Ambassador.Service.Inventory.Lib.Services.FpReturnFromBuyers;
-using Com.Ambassador.Service.Inventory.Lib.ViewModels.FpReturnFromBuyers;
+﻿using Com.Efrata.Service.Inventory.Lib.Models.FpReturnFromBuyers;
+using Com.Efrata.Service.Inventory.Lib.Services.FpReturnFromBuyers;
+using Com.Efrata.Service.Inventory.Lib.ViewModels.FpReturnFromBuyers;
 using System;
 using System.Collections.Generic;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Com.Ambassador.Service.Inventory.Test.DataUtils.FpReturnFromBuyerDataUtil
+namespace Com.Efrata.Service.Inventory.Test.DataUtils.FpReturnFromBuyerDataUtil
 {
     public class FpReturnFromBuyerDataUtil
     {

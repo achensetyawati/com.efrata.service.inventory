@@ -1,12 +1,12 @@
-﻿using Com.Ambassador.Service.Inventory.Lib.Helpers;
-using Com.Ambassador.Service.Inventory.Lib.Models.InventoryModel;
-using Com.Ambassador.Service.Inventory.Lib.Models.MaterialDistributionNoteModel;
-using Com.Ambassador.Service.Inventory.Lib.Models.MaterialsRequestNoteModel;
-using Com.Ambassador.Service.Inventory.Lib.Services.Inventory;
-using Com.Ambassador.Service.Inventory.Lib.Services.MaterialRequestNoteServices;
-using Com.Ambassador.Service.Inventory.Lib.ViewModels;
-using Com.Ambassador.Service.Inventory.Lib.ViewModels.InventoryViewModel;
-using Com.Ambassador.Service.Inventory.Lib.ViewModels.MaterialDistributionNoteViewModel;
+﻿using Com.Efrata.Service.Inventory.Lib.Helpers;
+using Com.Efrata.Service.Inventory.Lib.Models.InventoryModel;
+using Com.Efrata.Service.Inventory.Lib.Models.MaterialDistributionNoteModel;
+using Com.Efrata.Service.Inventory.Lib.Models.MaterialsRequestNoteModel;
+using Com.Efrata.Service.Inventory.Lib.Services.Inventory;
+using Com.Efrata.Service.Inventory.Lib.Services.MaterialRequestNoteServices;
+using Com.Efrata.Service.Inventory.Lib.ViewModels;
+using Com.Efrata.Service.Inventory.Lib.ViewModels.InventoryViewModel;
+using Com.Efrata.Service.Inventory.Lib.ViewModels.MaterialDistributionNoteViewModel;
 using Com.Moonlay.Models;
 using Com.Moonlay.NetCore.Lib;
 using Microsoft.EntityFrameworkCore;
@@ -18,7 +18,7 @@ using System.Linq;
 using System.Linq.Dynamic.Core;
 using System.Threading.Tasks;
 
-namespace Com.Ambassador.Service.Inventory.Lib.Services.MaterialDistributionNoteService
+namespace Com.Efrata.Service.Inventory.Lib.Services.MaterialDistributionNoteService
 {
     public class NewMaterialDistributionNoteService : IMaterialDistributionService
     {

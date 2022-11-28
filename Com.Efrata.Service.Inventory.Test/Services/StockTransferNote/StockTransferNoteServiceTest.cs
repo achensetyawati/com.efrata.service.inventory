@@ -1,11 +1,11 @@
-﻿using Com.Ambassador.Service.Inventory.Lib;
-using Com.Ambassador.Service.Inventory.Lib.Services;
-using Com.Ambassador.Service.Inventory.Lib.Services.Inventory;
-using Com.Ambassador.Service.Inventory.Lib.Services.StockTransferNoteService;
-using Com.Ambassador.Service.Inventory.Lib.ViewModels.InventoryViewModel;
-using Com.Ambassador.Service.Inventory.Lib.ViewModels.StockTransferNoteViewModel;
-using Com.Ambassador.Service.Inventory.Test.DataUtils.StockTransferNoteDataUtil;
-using Com.Ambassador.Service.Inventory.Test.Helpers;
+﻿using Com.Efrata.Service.Inventory.Lib;
+using Com.Efrata.Service.Inventory.Lib.Services;
+using Com.Efrata.Service.Inventory.Lib.Services.Inventory;
+using Com.Efrata.Service.Inventory.Lib.Services.StockTransferNoteService;
+using Com.Efrata.Service.Inventory.Lib.ViewModels.InventoryViewModel;
+using Com.Efrata.Service.Inventory.Lib.ViewModels.StockTransferNoteViewModel;
+using Com.Efrata.Service.Inventory.Test.DataUtils.StockTransferNoteDataUtil;
+using Com.Efrata.Service.Inventory.Test.Helpers;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Diagnostics;
 using Moq;
@@ -18,7 +18,7 @@ using System.Runtime.CompilerServices;
 using System.Threading.Tasks;
 using Xunit;
 
-namespace Com.Ambassador.Service.Inventory.Test.Services.StockTransferNote
+namespace Com.Efrata.Service.Inventory.Test.Services.StockTransferNote
 {
 
     public class StockTransferNoteServiceTest

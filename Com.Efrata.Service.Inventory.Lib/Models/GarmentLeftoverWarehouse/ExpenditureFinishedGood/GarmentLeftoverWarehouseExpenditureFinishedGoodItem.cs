@@ -3,7 +3,7 @@ using System;
 using System.Collections.Generic;
 using System.Text;
 
-namespace Com.Ambassador.Service.Inventory.Lib.Models.GarmentLeftoverWarehouse.ExpenditureFinishedGood
+namespace Com.Efrata.Service.Inventory.Lib.Models.GarmentLeftoverWarehouse.ExpenditureFinishedGood
 {
     public class GarmentLeftoverWarehouseExpenditureFinishedGoodItem : StandardEntity
     {

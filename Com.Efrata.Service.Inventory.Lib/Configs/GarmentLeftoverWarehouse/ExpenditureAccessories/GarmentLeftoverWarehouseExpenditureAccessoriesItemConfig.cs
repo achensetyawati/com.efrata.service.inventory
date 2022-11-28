@@ -1,11 +1,11 @@
-﻿using Com.Ambassador.Service.Inventory.Lib.Models.GarmentLeftoverWarehouse.ExpenditureAccessories;
+﻿using Com.Efrata.Service.Inventory.Lib.Models.GarmentLeftoverWarehouse.ExpenditureAccessories;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Metadata.Builders;
 using System;
 using System.Collections.Generic;
 using System.Text;
 
-namespace Com.Ambassador.Service.Inventory.Lib.Configs.GarmentLeftoverWarehouse.ExpenditureAccessories
+namespace Com.Efrata.Service.Inventory.Lib.Configs.GarmentLeftoverWarehouse.ExpenditureAccessories
 {
     public class GarmentLeftoverWarehouseExpenditureAccessoriesItemConfig : IEntityTypeConfiguration<GarmentLeftoverWarehouseExpenditureAccessoriesItem>
     {

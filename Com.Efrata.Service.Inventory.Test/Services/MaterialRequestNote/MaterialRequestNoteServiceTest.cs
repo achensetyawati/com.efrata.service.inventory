@@ -1,10 +1,10 @@
-﻿using Com.Ambassador.Service.Inventory.Lib;
-using Com.Ambassador.Service.Inventory.Lib.Services;
-using Com.Ambassador.Service.Inventory.Lib.Services.MaterialRequestNoteServices;
-using Com.Ambassador.Service.Inventory.Lib.ViewModels;
-using Com.Ambassador.Service.Inventory.Lib.ViewModels.MaterialsRequestNoteViewModel;
-using Com.Ambassador.Service.Inventory.Test.DataUtils.MaterialRequestNoteDataUtil;
-using Com.Ambassador.Service.Inventory.Test.Helpers;
+﻿using Com.Efrata.Service.Inventory.Lib;
+using Com.Efrata.Service.Inventory.Lib.Services;
+using Com.Efrata.Service.Inventory.Lib.Services.MaterialRequestNoteServices;
+using Com.Efrata.Service.Inventory.Lib.ViewModels;
+using Com.Efrata.Service.Inventory.Lib.ViewModels.MaterialsRequestNoteViewModel;
+using Com.Efrata.Service.Inventory.Test.DataUtils.MaterialRequestNoteDataUtil;
+using Com.Efrata.Service.Inventory.Test.Helpers;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Diagnostics;
 using Moq;
@@ -18,7 +18,7 @@ using System.Threading.Tasks;
 using Xunit;
 using Newtonsoft.Json;
 
-namespace Com.Ambassador.Service.Inventory.Test.Services.MaterialRequestNote
+namespace Com.Efrata.Service.Inventory.Test.Services.MaterialRequestNote
 {
     public class MaterialRequestNoteServiceTest
     {

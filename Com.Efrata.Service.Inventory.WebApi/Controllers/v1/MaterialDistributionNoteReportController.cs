@@ -5,14 +5,14 @@ using System.Threading.Tasks;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Authorization;
-using Com.Ambassador.Service.Inventory.Lib.Services.MaterialDistributionNoteService;
+using Com.Efrata.Service.Inventory.Lib.Services.MaterialDistributionNoteService;
 using Microsoft.EntityFrameworkCore;
-using Com.Ambassador.Service.Inventory.WebApi.Helpers;
+using Com.Efrata.Service.Inventory.WebApi.Helpers;
 using System.IO;
-using Com.Ambassador.Service.Inventory.Lib.PDFTemplates;
-using Com.Ambassador.Service.Inventory.Lib.Services;
+using Com.Efrata.Service.Inventory.Lib.PDFTemplates;
+using Com.Efrata.Service.Inventory.Lib.Services;
 
-namespace Com.Ambassador.Service.Inventory.WebApi.Controllers.v1
+namespace Com.Efrata.Service.Inventory.WebApi.Controllers.v1
 {
     [Produces("application/json")]
     [ApiVersion("1.0")]

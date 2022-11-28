@@ -1,6 +1,6 @@
-﻿using Com.Ambassador.Service.Inventory.Lib.Helpers;
-using Com.Ambassador.Service.Inventory.Lib.Services;
-using Com.Ambassador.Service.Inventory.WebApi.Helpers;
+﻿using Com.Efrata.Service.Inventory.Lib.Helpers;
+using Com.Efrata.Service.Inventory.Lib.Services;
+using Com.Efrata.Service.Inventory.WebApi.Helpers;
 using Com.Moonlay.Models;
 using Com.Moonlay.NetCore.Lib.Service;
 using Microsoft.AspNetCore.Http;
@@ -15,7 +15,7 @@ using System.Text;
 using System.Threading.Tasks;
 using Xunit;
 
-namespace Com.Ambassador.Service.Inventory.Test.Helpers
+namespace Com.Efrata.Service.Inventory.Test.Helpers
 {
     public abstract class BaseControllerTest<TController, TModel, TViewModel, IService>
        where TController : BaseController<TModel, TViewModel, IService>

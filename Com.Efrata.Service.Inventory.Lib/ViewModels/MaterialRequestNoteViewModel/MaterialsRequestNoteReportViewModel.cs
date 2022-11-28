@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace Com.Ambassador.Service.Inventory.Lib.ViewModels.MaterialsRequestNoteViewModel
+namespace Com.Efrata.Service.Inventory.Lib.ViewModels.MaterialsRequestNoteViewModel
 {
     public class MaterialsRequestNoteReportViewModel
     {

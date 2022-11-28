@@ -1,5 +1,5 @@
-﻿using Com.Ambassador.Service.Inventory.Lib.Services;
-using Com.Ambassador.Service.Inventory.Lib.ViewModels.StockTransferNoteViewModel;
+﻿using Com.Efrata.Service.Inventory.Lib.Services;
+using Com.Efrata.Service.Inventory.Lib.ViewModels.StockTransferNoteViewModel;
 using Com.Moonlay.NetCore.Lib.Service;
 using Moq;
 using System;
@@ -7,7 +7,7 @@ using System.Collections.Generic;
 using System.Text;
 using Xunit;
 
-namespace Com.Ambassador.Service.Inventory.Test.Services
+namespace Com.Efrata.Service.Inventory.Test.Services
 {
   public  class ValidateServiceTest
     {

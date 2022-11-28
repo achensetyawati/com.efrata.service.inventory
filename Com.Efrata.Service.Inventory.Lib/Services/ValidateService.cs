@@ -3,7 +3,7 @@ using System;
 using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
 
-namespace Com.Ambassador.Service.Inventory.Lib.Services
+namespace Com.Efrata.Service.Inventory.Lib.Services
 {
     public class ValidateService : IValidateService
     {

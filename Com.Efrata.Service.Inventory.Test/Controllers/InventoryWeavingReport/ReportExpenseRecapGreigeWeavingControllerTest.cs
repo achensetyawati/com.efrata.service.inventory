@@ -1,7 +1,7 @@
-﻿using Com.Ambassador.Service.Inventory.Lib.Services;
-using Com.Ambassador.Service.Inventory.Lib.Services.InventoryWeaving.Reports.ReportExpenseRecapGreigeWeaving;
-using Com.Ambassador.Service.Inventory.Lib.ViewModels.InventoryWeavingViewModel.Report;
-using Com.Ambassador.Service.Inventory.WebApi.Controllers.v1.WeavingInventory.Reports.ReportExpenseRecapGreigeWeavingController;
+﻿using Com.Efrata.Service.Inventory.Lib.Services;
+using Com.Efrata.Service.Inventory.Lib.Services.InventoryWeaving.Reports.ReportExpenseRecapGreigeWeaving;
+using Com.Efrata.Service.Inventory.Lib.ViewModels.InventoryWeavingViewModel.Report;
+using Com.Efrata.Service.Inventory.WebApi.Controllers.v1.WeavingInventory.Reports.ReportExpenseRecapGreigeWeavingController;
 using Com.Moonlay.NetCore.Lib.Service;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
@@ -14,7 +14,7 @@ using System.Net;
 using System.Security.Claims;
 using Xunit;
 
-namespace Com.Ambassador.Service.Inventory.Test.Controllers.InventoryWeavingReport
+namespace Com.Efrata.Service.Inventory.Test.Controllers.InventoryWeavingReport
 {
     public class ReportExpenseRecapGreigeWeavingControllerTest
     {

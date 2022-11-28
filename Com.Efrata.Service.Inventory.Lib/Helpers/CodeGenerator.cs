@@ -1,6 +1,6 @@
 ﻿using MlkPwgen;
 
-namespace Com.Ambassador.Service.Inventory.Lib.Helpers
+namespace Com.Efrata.Service.Inventory.Lib.Helpers
 {
     public static class CodeGenerator
     {

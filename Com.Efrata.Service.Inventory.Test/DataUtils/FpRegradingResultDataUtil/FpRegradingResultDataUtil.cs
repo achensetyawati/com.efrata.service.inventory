@@ -1,12 +1,12 @@
-﻿using Com.Ambassador.Service.Inventory.Lib.Models;
-using Com.Ambassador.Service.Inventory.Lib.Services.FpRegradingResultDocs;
-using Com.Ambassador.Service.Inventory.Lib.ViewModels;
-using Com.Ambassador.Service.Inventory.Test.Helpers;
+﻿using Com.Efrata.Service.Inventory.Lib.Models;
+using Com.Efrata.Service.Inventory.Lib.Services.FpRegradingResultDocs;
+using Com.Efrata.Service.Inventory.Lib.ViewModels;
+using Com.Efrata.Service.Inventory.Test.Helpers;
 using System;
 using System.Collections.Generic;
 using System.Threading.Tasks;
 
-namespace Com.Ambassador.Service.Inventory.Test.DataUtils.FpRegradingResultDataUtil
+namespace Com.Efrata.Service.Inventory.Test.DataUtils.FpRegradingResultDataUtil
 {
     public class FpRegradingResultDataUtil
     {

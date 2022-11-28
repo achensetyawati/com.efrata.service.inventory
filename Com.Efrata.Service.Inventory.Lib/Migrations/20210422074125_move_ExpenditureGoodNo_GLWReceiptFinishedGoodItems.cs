@@ -1,7 +1,7 @@
 ﻿using System;
 using Microsoft.EntityFrameworkCore.Migrations;
 
-namespace Com.Ambassador.Service.Inventory.Lib.Migrations
+namespace Com.Efrata.Service.Inventory.Lib.Migrations
 {
     public partial class move_ExpenditureGoodNo_GLWReceiptFinishedGoodItems : Migration
     {

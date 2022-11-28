@@ -1,6 +1,6 @@
 ﻿using Com.Moonlay.Models;
 
-namespace Com.Ambassador.Service.Inventory.Lib.Models.GarmentLeftoverWarehouse.GarmentLeftoverWarehouseReceiptFabricModels
+namespace Com.Efrata.Service.Inventory.Lib.Models.GarmentLeftoverWarehouse.GarmentLeftoverWarehouseReceiptFabricModels
 {
     public class GarmentLeftoverWarehouseReceiptFabricItem : StandardEntity
     {

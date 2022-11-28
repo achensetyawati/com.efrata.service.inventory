@@ -1,10 +1,10 @@
-﻿using Com.Ambassador.Service.Inventory.Lib.ViewModels;
+﻿using Com.Efrata.Service.Inventory.Lib.ViewModels;
 using System;
 using System.Collections.Generic;
 using System.Text;
 using Xunit;
 
-namespace Com.Ambassador.Service.Inventory.Test.ViewModels
+namespace Com.Efrata.Service.Inventory.Test.ViewModels
 {
     public class MachineViewModelTest
     {

@@ -2,9 +2,9 @@
 using System.Collections.Generic;
 using System.IO;
 using System.Text;
-using Com.Ambassador.Service.Inventory.Lib.ViewModels.GarmentLeftoverWarehouse.GarmentLeftoverWarehouseAval;
+using Com.Efrata.Service.Inventory.Lib.ViewModels.GarmentLeftoverWarehouse.GarmentLeftoverWarehouseAval;
 
-namespace Com.Ambassador.Service.Inventory.Lib.Services.GarmentLeftoverWarehouse.Report.AvalMutation
+namespace Com.Efrata.Service.Inventory.Lib.Services.GarmentLeftoverWarehouse.Report.AvalMutation
 {
     public interface IGarmentLeftoverWarehouseAvalMutationReportService
     {

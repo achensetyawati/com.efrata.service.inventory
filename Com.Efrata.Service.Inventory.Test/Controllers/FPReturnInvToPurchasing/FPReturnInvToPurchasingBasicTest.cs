@@ -1,14 +1,14 @@
-﻿using Com.Ambassador.Service.Inventory.Lib.Services.FPReturnInvToPurchasingService;
-using Com.Ambassador.Service.Inventory.Lib.ViewModels.FPReturnInvToPurchasingViewModel;
-using Com.Ambassador.Service.Inventory.Test.Helpers;
-using Com.Ambassador.Service.Inventory.WebApi.Controllers.v1;
+﻿using Com.Efrata.Service.Inventory.Lib.Services.FPReturnInvToPurchasingService;
+using Com.Efrata.Service.Inventory.Lib.ViewModels.FPReturnInvToPurchasingViewModel;
+using Com.Efrata.Service.Inventory.Test.Helpers;
+using Com.Efrata.Service.Inventory.WebApi.Controllers.v1;
 using Moq;
 using System;
 using System.Collections.Generic;
 using System.Net;
 using Xunit;
 
-namespace Com.Ambassador.Service.Inventory.Test.Controllers.FPReturnInvToPurchasing
+namespace Com.Efrata.Service.Inventory.Test.Controllers.FPReturnInvToPurchasing
 {
     public class FPReturnInvToPurchasingBasicTest : BaseControllerTest<FPReturnInvToPurchasingController, Lib.Models.FPReturnInvToPurchasingModel.FPReturnInvToPurchasing, FPReturnInvToPurchasingViewModel, IFPReturnInvToPurchasingService>
     {

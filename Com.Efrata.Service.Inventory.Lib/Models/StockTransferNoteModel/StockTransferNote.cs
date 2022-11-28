@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
 
-namespace Com.Ambassador.Service.Inventory.Lib.Models.StockTransferNoteModel
+namespace Com.Efrata.Service.Inventory.Lib.Models.StockTransferNoteModel
 {
     public class StockTransferNote : StandardEntity, IValidatableObject
     {

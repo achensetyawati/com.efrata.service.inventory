@@ -1,8 +1,8 @@
-﻿using Com.Ambassador.Service.Inventory.Lib.Models.StockTransferNoteModel;
+﻿using Com.Efrata.Service.Inventory.Lib.Models.StockTransferNoteModel;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Metadata.Builders;
 
-namespace Com.Ambassador.Service.Inventory.Lib.Configs.StockTransferNoteConfig
+namespace Com.Efrata.Service.Inventory.Lib.Configs.StockTransferNoteConfig
 {
     public class StockTransferNoteItemConfig : IEntityTypeConfiguration<StockTransferNote_Item>
     {

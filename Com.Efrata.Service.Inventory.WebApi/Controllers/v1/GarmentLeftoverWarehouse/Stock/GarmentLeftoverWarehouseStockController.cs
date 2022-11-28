@@ -1,17 +1,17 @@
-﻿using Com.Ambassador.Service.Inventory.Lib.Helpers;
-using Com.Ambassador.Service.Inventory.Lib.Models.GarmentLeftoverWarehouse.Stock;
-using Com.Ambassador.Service.Inventory.Lib.Services;
-using Com.Ambassador.Service.Inventory.Lib.Services.GarmentLeftoverWarehouse.Stock;
-using Com.Ambassador.Service.Inventory.WebApi.Helpers;
+﻿using Com.Efrata.Service.Inventory.Lib.Helpers;
+using Com.Efrata.Service.Inventory.Lib.Models.GarmentLeftoverWarehouse.Stock;
+using Com.Efrata.Service.Inventory.Lib.Services;
+using Com.Efrata.Service.Inventory.Lib.Services.GarmentLeftoverWarehouse.Stock;
+using Com.Efrata.Service.Inventory.WebApi.Helpers;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
-using General = Com.Ambassador.Service.Inventory.WebApi.Helpers.General;
+using General = Com.Efrata.Service.Inventory.WebApi.Helpers.General;
 
-namespace Com.Ambassador.Service.Inventory.WebApi.Controllers.v1.GarmentLeftoverWarehouse.Stock
+namespace Com.Efrata.Service.Inventory.WebApi.Controllers.v1.GarmentLeftoverWarehouse.Stock
 {
     [Produces("application/json")]
     [ApiVersion("1.0")]

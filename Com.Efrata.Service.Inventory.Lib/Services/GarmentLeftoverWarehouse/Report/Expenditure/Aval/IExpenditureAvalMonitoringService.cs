@@ -1,10 +1,10 @@
-﻿using Com.Ambassador.Service.Inventory.Lib.ViewModels.GarmentLeftoverWarehouse.Report.Expenditure;
+﻿using Com.Efrata.Service.Inventory.Lib.ViewModels.GarmentLeftoverWarehouse.Report.Expenditure;
 using System;
 using System.Collections.Generic;
 using System.IO;
 using System.Text;
 
-namespace Com.Ambassador.Service.Inventory.Lib.Services.GarmentLeftoverWarehouse.Report.Expenditure.Aval
+namespace Com.Efrata.Service.Inventory.Lib.Services.GarmentLeftoverWarehouse.Report.Expenditure.Aval
 {
     public interface IExpenditureAvalMonitoringService
     {

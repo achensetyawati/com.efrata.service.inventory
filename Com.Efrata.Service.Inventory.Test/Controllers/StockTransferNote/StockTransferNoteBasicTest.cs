@@ -1,18 +1,18 @@
-﻿using Com.Ambassador.Service.Inventory.Lib;
-using Com.Ambassador.Service.Inventory.Lib.Services.StockTransferNoteService;
-using Com.Ambassador.Service.Inventory.Test.Helpers;
-using Model = Com.Ambassador.Service.Inventory.Lib.Models.StockTransferNoteModel;
+﻿using Com.Efrata.Service.Inventory.Lib;
+using Com.Efrata.Service.Inventory.Lib.Services.StockTransferNoteService;
+using Com.Efrata.Service.Inventory.Test.Helpers;
+using Model = Com.Efrata.Service.Inventory.Lib.Models.StockTransferNoteModel;
 using System;
 using System.Collections.Generic;
 using System.Text;
 using Xunit;
-using Com.Ambassador.Service.Inventory.Lib.ViewModels.StockTransferNoteViewModel;
-using Com.Ambassador.Service.Inventory.Test.DataUtils.StockTransferNoteDataUtil;
-using Com.Ambassador.Service.Inventory.WebApi.Controllers.v1;
+using Com.Efrata.Service.Inventory.Lib.ViewModels.StockTransferNoteViewModel;
+using Com.Efrata.Service.Inventory.Test.DataUtils.StockTransferNoteDataUtil;
+using Com.Efrata.Service.Inventory.WebApi.Controllers.v1;
 using Moq;
 using System.Net;
 
-namespace Com.Ambassador.Service.Inventory.Test.Controllers.StockTransferNote
+namespace Com.Efrata.Service.Inventory.Test.Controllers.StockTransferNote
 {
     public class StockTransferNoteBasicTest : BaseControllerTest<StockTransferNoteController, Model.StockTransferNote, StockTransferNoteViewModel, IStockTransferNoteService>
     {

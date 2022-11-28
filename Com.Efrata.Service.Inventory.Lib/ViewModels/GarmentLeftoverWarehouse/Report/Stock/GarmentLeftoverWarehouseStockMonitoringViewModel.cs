@@ -1,9 +1,9 @@
-﻿using Com.Ambassador.Service.Inventory.Lib.Enums;
+﻿using Com.Efrata.Service.Inventory.Lib.Enums;
 using System;
 using System.Collections.Generic;
 using System.Text;
 
-namespace Com.Ambassador.Service.Inventory.Lib.ViewModels.GarmentLeftoverWarehouse.Stock
+namespace Com.Efrata.Service.Inventory.Lib.ViewModels.GarmentLeftoverWarehouse.Stock
 {
     public class GarmentLeftoverWarehouseStockMonitoringViewModel
     {

@@ -1,10 +1,10 @@
-﻿using Com.Ambassador.Service.Inventory.Lib.Enums;
-using Com.Ambassador.Service.Inventory.Lib.Helpers;
-using Com.Ambassador.Service.Inventory.Lib.Models.GarmentLeftoverWarehouse.ReceiptAccessories;
-using Com.Ambassador.Service.Inventory.Lib.Models.GarmentLeftoverWarehouse.Stock;
-using Com.Ambassador.Service.Inventory.Lib.Services.GarmentLeftoverWarehouse.Stock;
-using Com.Ambassador.Service.Inventory.Lib.ViewModels;
-using Com.Ambassador.Service.Inventory.Lib.ViewModels.GarmentLeftoverWarehouse.ReceiptAccessories;
+﻿using Com.Efrata.Service.Inventory.Lib.Enums;
+using Com.Efrata.Service.Inventory.Lib.Helpers;
+using Com.Efrata.Service.Inventory.Lib.Models.GarmentLeftoverWarehouse.ReceiptAccessories;
+using Com.Efrata.Service.Inventory.Lib.Models.GarmentLeftoverWarehouse.Stock;
+using Com.Efrata.Service.Inventory.Lib.Services.GarmentLeftoverWarehouse.Stock;
+using Com.Efrata.Service.Inventory.Lib.ViewModels;
+using Com.Efrata.Service.Inventory.Lib.ViewModels.GarmentLeftoverWarehouse.ReceiptAccessories;
 using Com.Moonlay.Models;
 using Com.Moonlay.NetCore.Lib;
 using Microsoft.EntityFrameworkCore;
@@ -16,7 +16,7 @@ using System.Net.Http;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Com.Ambassador.Service.Inventory.Lib.Services.GarmentLeftoverWarehouse.ReceiptAccessories
+namespace Com.Efrata.Service.Inventory.Lib.Services.GarmentLeftoverWarehouse.ReceiptAccessories
 {
     public class GarmentLeftoverWarehouseReceiptAccessoriesService : IGarmentLeftoverWarehouseReceiptAccessoriesService
     {

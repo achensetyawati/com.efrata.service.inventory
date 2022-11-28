@@ -1,11 +1,11 @@
-﻿using Com.Ambassador.Service.Inventory.Lib.Helpers;
-using Com.Ambassador.Service.Inventory.Lib.ViewModels.InventoryViewModel;
-using Com.Ambassador.Service.Inventory.Test.Helpers;
+﻿using Com.Efrata.Service.Inventory.Lib.Helpers;
+using Com.Efrata.Service.Inventory.Lib.ViewModels.InventoryViewModel;
+using Com.Efrata.Service.Inventory.Test.Helpers;
 using Newtonsoft.Json;
 using System.Collections.Generic;
 using System.Linq;
 
-namespace Com.Ambassador.Service.Inventory.Test.DataUtils.IntegrationDataUtil
+namespace Com.Efrata.Service.Inventory.Test.DataUtils.IntegrationDataUtil
 {
     public class InventorySummaryDataUtil
     {

@@ -1,12 +1,12 @@
-﻿using Com.Ambassador.Service.Inventory.Lib.Models.StockTransferNoteModel;
-using Com.Ambassador.Service.Inventory.Lib.Services.StockTransferNoteService;
-using Com.Ambassador.Service.Inventory.Lib.ViewModels;
-using Com.Ambassador.Service.Inventory.Lib.ViewModels.StockTransferNoteViewModel;
-using Com.Ambassador.Service.Inventory.Test.Helpers;
+﻿using Com.Efrata.Service.Inventory.Lib.Models.StockTransferNoteModel;
+using Com.Efrata.Service.Inventory.Lib.Services.StockTransferNoteService;
+using Com.Efrata.Service.Inventory.Lib.ViewModels;
+using Com.Efrata.Service.Inventory.Lib.ViewModels.StockTransferNoteViewModel;
+using Com.Efrata.Service.Inventory.Test.Helpers;
 using System.Collections.Generic;
 using System.Threading.Tasks;
 
-namespace Com.Ambassador.Service.Inventory.Test.DataUtils.StockTransferNoteDataUtil
+namespace Com.Efrata.Service.Inventory.Test.DataUtils.StockTransferNoteDataUtil
 {
     public class StockTransferNoteDataUtil
     {

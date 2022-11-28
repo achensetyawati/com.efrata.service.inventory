@@ -4,12 +4,12 @@ using System.Data;
 using System.IO;
 using System.Linq;
 using System.Text;
-using Com.Ambassador.Service.Inventory.Lib.ViewModels.GarmentLeftoverWarehouse.Report.Bookkeeping;
-using Com.Ambassador.Service.Inventory.Lib.ViewModels.GarmentLeftoverWarehouse.Stock;
+using Com.Efrata.Service.Inventory.Lib.ViewModels.GarmentLeftoverWarehouse.Report.Bookkeeping;
+using Com.Efrata.Service.Inventory.Lib.ViewModels.GarmentLeftoverWarehouse.Stock;
 using Newtonsoft.Json;
 using OfficeOpenXml;
 
-namespace Com.Ambassador.Service.Inventory.Lib.Services.GarmentLeftoverWarehouse.Report.Bookkeeping
+namespace Com.Efrata.Service.Inventory.Lib.Services.GarmentLeftoverWarehouse.Report.Bookkeeping
 {
     public class GarmentLeftoverWarehouseStockBookkeepingReportService : IGarmentLeftoverWarehouseStockBookkeepingReportService
     {

@@ -1,12 +1,12 @@
-﻿using Com.Ambassador.Service.Inventory.Lib.Helpers;
-using Com.Ambassador.Service.Inventory.Lib.Models.GarmentLeftoverWarehouse.BalanceStock;
-using Com.Ambassador.Service.Inventory.Lib.Services.GarmentLeftoverWarehouse.BalanceStock;
+﻿using Com.Efrata.Service.Inventory.Lib.Helpers;
+using Com.Efrata.Service.Inventory.Lib.Models.GarmentLeftoverWarehouse.BalanceStock;
+using Com.Efrata.Service.Inventory.Lib.Services.GarmentLeftoverWarehouse.BalanceStock;
 using System;
 using System.Collections.Generic;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Com.Ambassador.Service.Inventory.Test.DataUtils.GarmentLeftoverWarehouse.BalanceStock
+namespace Com.Efrata.Service.Inventory.Test.DataUtils.GarmentLeftoverWarehouse.BalanceStock
 {
     public class GarmentLeftoverWarehouseBalanceStockDataUtil
     {

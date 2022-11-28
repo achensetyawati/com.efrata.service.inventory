@@ -2,7 +2,7 @@
 using Microsoft.EntityFrameworkCore.Metadata;
 using Microsoft.EntityFrameworkCore.Migrations;
 
-namespace Com.Ambassador.Service.Inventory.Lib.Migrations
+namespace Com.Efrata.Service.Inventory.Lib.Migrations
 {
     public partial class initial_ExpenditureFinishedGoods : Migration
     {

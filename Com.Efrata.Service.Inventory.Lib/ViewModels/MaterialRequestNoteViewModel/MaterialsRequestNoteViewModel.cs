@@ -1,9 +1,9 @@
-﻿using Com.Ambassador.Service.Inventory.Lib.Helpers;
+﻿using Com.Efrata.Service.Inventory.Lib.Helpers;
 using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
 using System.Linq;
 
-namespace Com.Ambassador.Service.Inventory.Lib.ViewModels.MaterialsRequestNoteViewModel
+namespace Com.Efrata.Service.Inventory.Lib.ViewModels.MaterialsRequestNoteViewModel
 {
     public class MaterialsRequestNoteViewModel : BasicViewModel, IValidatableObject
     {

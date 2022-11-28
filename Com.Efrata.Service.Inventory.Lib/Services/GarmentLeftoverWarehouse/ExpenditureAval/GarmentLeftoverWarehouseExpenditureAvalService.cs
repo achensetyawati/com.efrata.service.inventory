@@ -1,10 +1,10 @@
-﻿using Com.Ambassador.Service.Inventory.Lib.Enums;
-using Com.Ambassador.Service.Inventory.Lib.Helpers;
-using Com.Ambassador.Service.Inventory.Lib.Models.GarmentLeftoverWarehouse.ExpenditureAval;
-using Com.Ambassador.Service.Inventory.Lib.Models.GarmentLeftoverWarehouse.Stock;
-using Com.Ambassador.Service.Inventory.Lib.Services.GarmentLeftoverWarehouse.Stock;
-using Com.Ambassador.Service.Inventory.Lib.ViewModels;
-using Com.Ambassador.Service.Inventory.Lib.ViewModels.GarmentLeftoverWarehouse.ExpenditureAval;
+﻿using Com.Efrata.Service.Inventory.Lib.Enums;
+using Com.Efrata.Service.Inventory.Lib.Helpers;
+using Com.Efrata.Service.Inventory.Lib.Models.GarmentLeftoverWarehouse.ExpenditureAval;
+using Com.Efrata.Service.Inventory.Lib.Models.GarmentLeftoverWarehouse.Stock;
+using Com.Efrata.Service.Inventory.Lib.Services.GarmentLeftoverWarehouse.Stock;
+using Com.Efrata.Service.Inventory.Lib.ViewModels;
+using Com.Efrata.Service.Inventory.Lib.ViewModels.GarmentLeftoverWarehouse.ExpenditureAval;
 using Com.Moonlay.Models;
 using Com.Moonlay.NetCore.Lib;
 using Microsoft.EntityFrameworkCore;
@@ -15,7 +15,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Com.Ambassador.Service.Inventory.Lib.Services.GarmentLeftoverWarehouse.ExpenditureAval
+namespace Com.Efrata.Service.Inventory.Lib.Services.GarmentLeftoverWarehouse.ExpenditureAval
 {
     public class GarmentLeftoverWarehouseExpenditureAvalService : IGarmentLeftoverWarehouseExpenditureAvalService
     {

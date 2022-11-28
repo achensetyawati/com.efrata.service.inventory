@@ -1,10 +1,10 @@
 ﻿using AutoMapper;
-using Com.Ambassador.Service.Inventory.Lib.Helpers;
-using Com.Ambassador.Service.Inventory.Lib.Models.InventoryWeavingModel;
-using Com.Ambassador.Service.Inventory.Lib.Services;
-using Com.Ambassador.Service.Inventory.Lib.Services.InventoryWeaving;
-using Com.Ambassador.Service.Inventory.Lib.ViewModels.InventoryWeavingViewModel;
-using Com.Ambassador.Service.Inventory.WebApi.Controllers.v1.WeavingInventory;
+using Com.Efrata.Service.Inventory.Lib.Helpers;
+using Com.Efrata.Service.Inventory.Lib.Models.InventoryWeavingModel;
+using Com.Efrata.Service.Inventory.Lib.Services;
+using Com.Efrata.Service.Inventory.Lib.Services.InventoryWeaving;
+using Com.Efrata.Service.Inventory.Lib.ViewModels.InventoryWeavingViewModel;
+using Com.Efrata.Service.Inventory.WebApi.Controllers.v1.WeavingInventory;
 using Com.Moonlay.NetCore.Lib.Service;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
@@ -17,7 +17,7 @@ using System.Security.Claims;
 using System.Text;
 using Xunit;
 
-namespace Com.Ambassador.Service.Inventory.Test.Controllers.InventoryWeavingReport
+namespace Com.Efrata.Service.Inventory.Test.Controllers.InventoryWeavingReport
 {
     public class InventoryWeavingAdjDocumentControllerTest
     {

@@ -1,11 +1,11 @@
-﻿using Com.Ambassador.Service.Inventory.Lib.ViewModels.InventoryWeavingViewModel;
+﻿using Com.Efrata.Service.Inventory.Lib.ViewModels.InventoryWeavingViewModel;
 using System;
 using System.Collections.Generic;
 using System.IO;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Com.Ambassador.Service.Inventory.Lib.Services.InventoryWeaving.Reports.ReportRecapStockGreigePerType
+namespace Com.Efrata.Service.Inventory.Lib.Services.InventoryWeaving.Reports.ReportRecapStockGreigePerType
 {
     public interface IReportRecapStockGreigePerTypeService
     {

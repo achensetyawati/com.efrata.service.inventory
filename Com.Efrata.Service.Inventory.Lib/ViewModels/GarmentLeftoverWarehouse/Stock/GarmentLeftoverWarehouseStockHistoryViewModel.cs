@@ -1,7 +1,7 @@
-﻿using Com.Ambassador.Service.Inventory.Lib.Enums;
-using Com.Ambassador.Service.Inventory.Lib.Helpers;
+﻿using Com.Efrata.Service.Inventory.Lib.Enums;
+using Com.Efrata.Service.Inventory.Lib.Helpers;
 
-namespace Com.Ambassador.Service.Inventory.Lib.ViewModels.GarmentLeftoverWarehouse.Stock
+namespace Com.Efrata.Service.Inventory.Lib.ViewModels.GarmentLeftoverWarehouse.Stock
 {
     public class GarmentLeftoverWarehouseStockHistoryViewModel : BasicViewModel
     {

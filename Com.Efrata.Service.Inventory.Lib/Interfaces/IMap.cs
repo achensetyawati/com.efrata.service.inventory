@@ -1,4 +1,4 @@
-﻿namespace Com.Ambassador.Service.Inventory.Lib.Interfaces
+﻿namespace Com.Efrata.Service.Inventory.Lib.Interfaces
 {
     public interface IMap<TModel, TViewModel>
     {

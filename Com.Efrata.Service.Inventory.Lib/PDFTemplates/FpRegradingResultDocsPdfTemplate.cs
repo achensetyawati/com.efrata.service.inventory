@@ -1,10 +1,10 @@
-﻿using Com.Ambassador.Service.Inventory.Lib.ViewModels;
+﻿using Com.Efrata.Service.Inventory.Lib.ViewModels;
 using iTextSharp.text;
 using iTextSharp.text.pdf;
 using System.IO;
 
 
-namespace Com.Ambassador.Service.Inventory.Lib.PDFTemplates
+namespace Com.Efrata.Service.Inventory.Lib.PDFTemplates
 {
     public class FpRegradingResultDocsPdfTemplate
     {

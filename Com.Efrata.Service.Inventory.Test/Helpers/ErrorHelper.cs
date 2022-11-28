@@ -5,7 +5,7 @@ using System.Linq;
 using System.Net.Http;
 using System.Text;
 
-namespace Com.Ambassador.Service.Inventory.Test.Helpers
+namespace Com.Efrata.Service.Inventory.Test.Helpers
 {
     public class ErrorHelper
     {

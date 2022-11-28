@@ -1,4 +1,4 @@
-﻿using Com.Ambassador.Service.Inventory.Lib.ViewModels.FPReturnInvToPurchasingViewModel;
+﻿using Com.Efrata.Service.Inventory.Lib.ViewModels.FPReturnInvToPurchasingViewModel;
 using iTextSharp.text;
 using iTextSharp.text.pdf;
 using System;
@@ -6,7 +6,7 @@ using System.Collections.Generic;
 using System.IO;
 using System.Text;
 
-namespace Com.Ambassador.Service.Inventory.Lib.PDFTemplates
+namespace Com.Efrata.Service.Inventory.Lib.PDFTemplates
 {
     public class FPReturnInvToPurchasingPdfTemplate
     {

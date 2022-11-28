@@ -1,11 +1,11 @@
-﻿using Com.Ambassador.Service.Inventory.Lib;
-using Com.Ambassador.Service.Inventory.Lib.Services;
-using Com.Ambassador.Service.Inventory.Lib.Services.InventoryWeaving;
-using Com.Ambassador.Service.Inventory.Lib.Services.InventoryWeaving.Reports.ReportGreigeWeavingPerGrade;
-using Com.Ambassador.Service.Inventory.Lib.ViewModels.InventoryWeavingViewModel;
-using Com.Ambassador.Service.Inventory.Test.DataUtils.InventoryWeavingDataUtils;
-using Com.Ambassador.Service.Inventory.Test.DataUtils.InventoryWeavingDataUtils.ReportGreigeWeavingPerGradeDataUtil;
-using Com.Ambassador.Service.Inventory.Test.Helpers;
+﻿using Com.Efrata.Service.Inventory.Lib;
+using Com.Efrata.Service.Inventory.Lib.Services;
+using Com.Efrata.Service.Inventory.Lib.Services.InventoryWeaving;
+using Com.Efrata.Service.Inventory.Lib.Services.InventoryWeaving.Reports.ReportGreigeWeavingPerGrade;
+using Com.Efrata.Service.Inventory.Lib.ViewModels.InventoryWeavingViewModel;
+using Com.Efrata.Service.Inventory.Test.DataUtils.InventoryWeavingDataUtils;
+using Com.Efrata.Service.Inventory.Test.DataUtils.InventoryWeavingDataUtils.ReportGreigeWeavingPerGradeDataUtil;
+using Com.Efrata.Service.Inventory.Test.Helpers;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Diagnostics;
 using Moq;
@@ -17,7 +17,7 @@ using System.Text;
 using System.Threading.Tasks;
 using Xunit;
 
-namespace Com.Ambassador.Service.Inventory.Test.Services.InventoryWeaving.InventoryWeavingUpload
+namespace Com.Efrata.Service.Inventory.Test.Services.InventoryWeaving.InventoryWeavingUpload
 {
     public class InventoryDocumentAdjServiceTest
     {

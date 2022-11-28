@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace Com.Ambassador.Service.Inventory.Lib.Services
+namespace Com.Efrata.Service.Inventory.Lib.Services
 {
     public interface IIdentityService
     {

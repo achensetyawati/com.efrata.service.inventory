@@ -1,11 +1,11 @@
-﻿using Com.Ambassador.Service.Inventory.Lib.Models.MaterialDistributionNoteModel;
+﻿using Com.Efrata.Service.Inventory.Lib.Models.MaterialDistributionNoteModel;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Metadata.Builders;
 using System;
 using System.Collections.Generic;
 using System.Text;
 
-namespace Com.Ambassador.Service.Inventory.Lib.Configs.MaterialDistributionNoteConfig
+namespace Com.Efrata.Service.Inventory.Lib.Configs.MaterialDistributionNoteConfig
 {
     public class MaterialDistributionNoteItemConfig : IEntityTypeConfiguration<MaterialDistributionNoteItem>
     {
