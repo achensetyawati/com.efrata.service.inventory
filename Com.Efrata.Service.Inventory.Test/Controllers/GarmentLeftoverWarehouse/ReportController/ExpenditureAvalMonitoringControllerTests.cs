@@ -1,7 +1,7 @@
-﻿using Com.Ambassador.Service.Inventory.Lib.Services;
-using Com.Ambassador.Service.Inventory.Lib.Services.GarmentLeftoverWarehouse.Report.Expenditure.Aval;
-using Com.Ambassador.Service.Inventory.Lib.ViewModels.GarmentLeftoverWarehouse.Report.Expenditure;
-using Com.Ambassador.Service.Inventory.WebApi.Controllers.v1.GarmentLeftoverWarehouse.ReportExpenditure;
+﻿using Com.Efrata.Service.Inventory.Lib.Services;
+using Com.Efrata.Service.Inventory.Lib.Services.GarmentLeftoverWarehouse.Report.Expenditure.Aval;
+using Com.Efrata.Service.Inventory.Lib.ViewModels.GarmentLeftoverWarehouse.Report.Expenditure;
+using Com.Efrata.Service.Inventory.WebApi.Controllers.v1.GarmentLeftoverWarehouse.ReportExpenditure;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using Moq;
@@ -13,7 +13,7 @@ using System.Security.Claims;
 using System.Text;
 using Xunit;
 
-namespace Com.Ambassador.Service.Inventory.Test.Controllers.GarmentLeftoverWarehouse.ReportController
+namespace Com.Efrata.Service.Inventory.Test.Controllers.GarmentLeftoverWarehouse.ReportController
 {
     public class ExpenditureAvalMonitoringControllerTests
     {

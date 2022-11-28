@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace Com.Ambassador.Service.Inventory.Lib.ViewModels.GarmentLeftoverWarehouse.Report.Mutation
+namespace Com.Efrata.Service.Inventory.Lib.ViewModels.GarmentLeftoverWarehouse.Report.Mutation
 {
     public class GarmentLeftoverWarehouseMutationReportViewModel
     {

@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Com.Ambassador.Service.Inventory.Test.Helpers
+namespace Com.Efrata.Service.Inventory.Test.Helpers
 {
     public abstract class BaseDataUtil<TModel, TFacade>
     {

@@ -1,6 +1,6 @@
-﻿using Com.Ambassador.Service.Inventory.Lib.Helpers;
-using Com.Ambassador.Service.Inventory.Lib.Models.InventoryModel;
-using Com.Ambassador.Service.Inventory.Lib.ViewModels.InventoryViewModel;
+﻿using Com.Efrata.Service.Inventory.Lib.Helpers;
+using Com.Efrata.Service.Inventory.Lib.Models.InventoryModel;
+using Com.Efrata.Service.Inventory.Lib.ViewModels.InventoryViewModel;
 using Com.Moonlay.Models;
 using Com.Moonlay.NetCore.Lib;
 using Microsoft.EntityFrameworkCore;
@@ -11,7 +11,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 
-namespace Com.Ambassador.Service.Inventory.Lib.Services.Inventory
+namespace Com.Efrata.Service.Inventory.Lib.Services.Inventory
 {
     public class InventoryDocumentService : IInventoryDocumentService
     {

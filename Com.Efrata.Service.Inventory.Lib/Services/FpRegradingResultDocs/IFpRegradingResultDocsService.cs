@@ -1,9 +1,9 @@
-﻿using Com.Ambassador.Service.Inventory.Lib.ViewModels;
-using Com.Ambassador.Service.Inventory.Lib.ViewModels.FpRegradingResultDocs;
+﻿using Com.Efrata.Service.Inventory.Lib.ViewModels;
+using Com.Efrata.Service.Inventory.Lib.ViewModels.FpRegradingResultDocs;
 using System;
 using System.Collections.Generic;
 
-namespace Com.Ambassador.Service.Inventory.Lib.Services.FpRegradingResultDocs
+namespace Com.Efrata.Service.Inventory.Lib.Services.FpRegradingResultDocs
 {
     public interface IFpRegradingResultDocsService : IBaseService<Models.FpRegradingResultDocs, FpRegradingResultDocsViewModel>
     {

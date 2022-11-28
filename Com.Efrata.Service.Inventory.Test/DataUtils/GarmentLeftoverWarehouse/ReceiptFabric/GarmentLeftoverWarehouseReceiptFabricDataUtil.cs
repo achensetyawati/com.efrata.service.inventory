@@ -1,12 +1,12 @@
-﻿using Com.Ambassador.Service.Inventory.Lib.Helpers;
-using Com.Ambassador.Service.Inventory.Lib.Models.GarmentLeftoverWarehouse.GarmentLeftoverWarehouseReceiptFabricModels;
-using Com.Ambassador.Service.Inventory.Lib.Services.GarmentLeftoverWarehouse.GarmentLeftoverWarehouseReceiptFabricServices;
+﻿using Com.Efrata.Service.Inventory.Lib.Helpers;
+using Com.Efrata.Service.Inventory.Lib.Models.GarmentLeftoverWarehouse.GarmentLeftoverWarehouseReceiptFabricModels;
+using Com.Efrata.Service.Inventory.Lib.Services.GarmentLeftoverWarehouse.GarmentLeftoverWarehouseReceiptFabricServices;
 using System;
 using System.Collections.Generic;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Com.Ambassador.Service.Inventory.Test.DataUtils.GarmentLeftoverWarehouse.GarmentLeftoverWarehouseReceiptFabricDataUtils
+namespace Com.Efrata.Service.Inventory.Test.DataUtils.GarmentLeftoverWarehouse.GarmentLeftoverWarehouseReceiptFabricDataUtils
 {
     public class GarmentLeftoverWarehouseReceiptFabricDataUtil
     {

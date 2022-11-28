@@ -1,5 +1,5 @@
-﻿using Com.Ambassador.Service.Inventory.Lib.Models.InventoryWeavingModel;
-using Com.Ambassador.Service.Inventory.Lib.ViewModels.InventoryWeavingViewModel.Report;
+﻿using Com.Efrata.Service.Inventory.Lib.Models.InventoryWeavingModel;
+using Com.Efrata.Service.Inventory.Lib.ViewModels.InventoryWeavingViewModel.Report;
 using Com.Moonlay.NetCore.Lib;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.DependencyInjection;
@@ -14,7 +14,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Com.Ambassador.Service.Inventory.Lib.Services.InventoryWeaving.Reports.ReportGreigeWeavingPerType
+namespace Com.Efrata.Service.Inventory.Lib.Services.InventoryWeaving.Reports.ReportGreigeWeavingPerType
 {
     public class ReportGreigeWeavingPerTypeService : IReportGreigeWeavingPerTypeService
     {

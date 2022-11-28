@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace Com.Ambassador.Service.Inventory.Lib.ViewModels.MaterialDistributionNoteViewModel
+namespace Com.Efrata.Service.Inventory.Lib.ViewModels.MaterialDistributionNoteViewModel
 {
     public class MaterialDistributionNoteReportViewModel
     {

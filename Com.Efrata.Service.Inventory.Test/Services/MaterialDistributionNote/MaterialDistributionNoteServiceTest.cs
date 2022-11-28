@@ -1,14 +1,14 @@
-﻿using Com.Ambassador.Service.Inventory.Lib;
-using Com.Ambassador.Service.Inventory.Lib.Models.MaterialsRequestNoteModel;
-using Com.Ambassador.Service.Inventory.Lib.Services;
-using Com.Ambassador.Service.Inventory.Lib.Services.Inventory;
-using Com.Ambassador.Service.Inventory.Lib.Services.MaterialDistributionNoteService;
-using Com.Ambassador.Service.Inventory.Lib.Services.MaterialRequestNoteServices;
-using Com.Ambassador.Service.Inventory.Lib.ViewModels;
-using Com.Ambassador.Service.Inventory.Lib.ViewModels.MaterialDistributionNoteViewModel;
-using Com.Ambassador.Service.Inventory.Test.DataUtils.MaterialDistributionNoteDataUtil;
-using Com.Ambassador.Service.Inventory.Test.DataUtils.MaterialRequestNoteDataUtil;
-using Com.Ambassador.Service.Inventory.Test.Helpers;
+﻿using Com.Efrata.Service.Inventory.Lib;
+using Com.Efrata.Service.Inventory.Lib.Models.MaterialsRequestNoteModel;
+using Com.Efrata.Service.Inventory.Lib.Services;
+using Com.Efrata.Service.Inventory.Lib.Services.Inventory;
+using Com.Efrata.Service.Inventory.Lib.Services.MaterialDistributionNoteService;
+using Com.Efrata.Service.Inventory.Lib.Services.MaterialRequestNoteServices;
+using Com.Efrata.Service.Inventory.Lib.ViewModels;
+using Com.Efrata.Service.Inventory.Lib.ViewModels.MaterialDistributionNoteViewModel;
+using Com.Efrata.Service.Inventory.Test.DataUtils.MaterialDistributionNoteDataUtil;
+using Com.Efrata.Service.Inventory.Test.DataUtils.MaterialRequestNoteDataUtil;
+using Com.Efrata.Service.Inventory.Test.Helpers;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Diagnostics;
 using Moq;
@@ -21,9 +21,9 @@ using System.Linq;
 using System.Runtime.CompilerServices;
 using System.Threading.Tasks;
 using Xunit;
-using Model = Com.Ambassador.Service.Inventory.Lib.Models.MaterialDistributionNoteModel;
+using Model = Com.Efrata.Service.Inventory.Lib.Models.MaterialDistributionNoteModel;
 
-namespace Com.Ambassador.Service.Inventory.Test.Services.MaterialDistributionNote
+namespace Com.Efrata.Service.Inventory.Test.Services.MaterialDistributionNote
 {
 
     public class MaterialDistributionNoteServiceTest

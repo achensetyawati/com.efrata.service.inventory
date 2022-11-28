@@ -1,11 +1,11 @@
-﻿using Com.Ambassador.Service.Inventory.Lib.Models.MaterialsRequestNoteModel;
-using Com.Ambassador.Service.Inventory.Lib.Services.MaterialRequestNoteServices;
-using Com.Ambassador.Service.Inventory.Lib.ViewModels;
-using Com.Ambassador.Service.Inventory.Lib.ViewModels.MaterialsRequestNoteViewModel;
+﻿using Com.Efrata.Service.Inventory.Lib.Models.MaterialsRequestNoteModel;
+using Com.Efrata.Service.Inventory.Lib.Services.MaterialRequestNoteServices;
+using Com.Efrata.Service.Inventory.Lib.ViewModels;
+using Com.Efrata.Service.Inventory.Lib.ViewModels.MaterialsRequestNoteViewModel;
 using System.Collections.Generic;
 using System.Threading.Tasks;
 
-namespace Com.Ambassador.Service.Inventory.Test.DataUtils.MaterialRequestNoteDataUtil
+namespace Com.Efrata.Service.Inventory.Test.DataUtils.MaterialRequestNoteDataUtil
 {
     public class MaterialRequestNoteDataUtil
     {

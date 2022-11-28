@@ -3,7 +3,7 @@ using System;
 using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
 
-namespace Com.Ambassador.Service.Inventory.Lib.Models.InventoryModel
+namespace Com.Efrata.Service.Inventory.Lib.Models.InventoryModel
 {
     public class InventoryDocumentItem : StandardEntity, IValidatableObject
     {

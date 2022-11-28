@@ -4,18 +4,18 @@ using System.ComponentModel.DataAnnotations;
 using System.Net;
 using System.Security.Claims;
 using System.Text;
-using Com.Ambassador.Service.Inventory.Lib.Models.MaterialDistributionNoteModel;
-using Com.Ambassador.Service.Inventory.Lib.Services;
-using Com.Ambassador.Service.Inventory.Lib.Services.MaterialDistributionNoteService;
-using Com.Ambassador.Service.Inventory.Lib.ViewModels.MaterialDistributionNoteViewModel;
-using Com.Ambassador.Service.Inventory.WebApi.Controllers.v1;
+using Com.Efrata.Service.Inventory.Lib.Models.MaterialDistributionNoteModel;
+using Com.Efrata.Service.Inventory.Lib.Services;
+using Com.Efrata.Service.Inventory.Lib.Services.MaterialDistributionNoteService;
+using Com.Efrata.Service.Inventory.Lib.ViewModels.MaterialDistributionNoteViewModel;
+using Com.Efrata.Service.Inventory.WebApi.Controllers.v1;
 using Com.Moonlay.NetCore.Lib.Service;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using Moq;
 using Xunit;
 
-namespace Com.Ambassador.Service.Inventory.Test.Controllers.MaterialDistributionNote
+namespace Com.Efrata.Service.Inventory.Test.Controllers.MaterialDistributionNote
 {
     public class MaterialDistributionNoteReportControllerTest
     {

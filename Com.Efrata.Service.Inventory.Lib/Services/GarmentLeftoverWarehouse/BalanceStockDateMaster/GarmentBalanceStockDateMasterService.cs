@@ -1,6 +1,6 @@
-﻿using Com.Ambassador.Service.Inventory.Lib.Helpers;
-using Com.Ambassador.Service.Inventory.Lib.Models.GarmentLeftoverWarehouse.BalanceStockDateMaster;
-using Com.Ambassador.Service.Inventory.Lib.ViewModels.GarmentLeftoverWarehouse.BalanceStockDateMasterViewModel;
+﻿using Com.Efrata.Service.Inventory.Lib.Helpers;
+using Com.Efrata.Service.Inventory.Lib.Models.GarmentLeftoverWarehouse.BalanceStockDateMaster;
+using Com.Efrata.Service.Inventory.Lib.ViewModels.GarmentLeftoverWarehouse.BalanceStockDateMasterViewModel;
 using Com.Moonlay.Models;
 using Com.Moonlay.NetCore.Lib;
 using Microsoft.EntityFrameworkCore;
@@ -11,7 +11,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Com.Ambassador.Service.Inventory.Lib.Services.GarmentLeftoverWarehouse.BalanceStockDateMaster
+namespace Com.Efrata.Service.Inventory.Lib.Services.GarmentLeftoverWarehouse.BalanceStockDateMaster
 {
     public class GarmentBalanceStockDateMasterService : IGarmentBalanceStockDateMasterService
     {

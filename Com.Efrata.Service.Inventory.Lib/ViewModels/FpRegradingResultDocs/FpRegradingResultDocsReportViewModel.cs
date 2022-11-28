@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace Com.Ambassador.Service.Inventory.Lib.ViewModels.FpRegradingResultDocs
+namespace Com.Efrata.Service.Inventory.Lib.ViewModels.FpRegradingResultDocs
 {
     public class FpRegradingResultDocsReportViewModel
     {

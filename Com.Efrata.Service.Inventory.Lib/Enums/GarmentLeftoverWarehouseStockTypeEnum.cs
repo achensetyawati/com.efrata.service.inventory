@@ -1,4 +1,4 @@
-﻿namespace Com.Ambassador.Service.Inventory.Lib.Enums
+﻿namespace Com.Efrata.Service.Inventory.Lib.Enums
 {
     public enum GarmentLeftoverWarehouseStockTypeEnum
     {

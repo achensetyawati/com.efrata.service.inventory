@@ -1,12 +1,12 @@
-﻿using Com.Ambassador.Service.Inventory.Lib.Helpers;
-using Com.Ambassador.Service.Inventory.Lib.Models.GarmentLeftoverWarehouse.ExpenditureFinishedGood;
-using Com.Ambassador.Service.Inventory.Lib.Services.GarmentLeftoverWarehouse.ExpenditureFinishedGood;
+﻿using Com.Efrata.Service.Inventory.Lib.Helpers;
+using Com.Efrata.Service.Inventory.Lib.Models.GarmentLeftoverWarehouse.ExpenditureFinishedGood;
+using Com.Efrata.Service.Inventory.Lib.Services.GarmentLeftoverWarehouse.ExpenditureFinishedGood;
 using System;
 using System.Collections.Generic;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Com.Ambassador.Service.Inventory.Test.DataUtils.GarmentLeftoverWarehouse.ExpenditureFinishedGood
+namespace Com.Efrata.Service.Inventory.Test.DataUtils.GarmentLeftoverWarehouse.ExpenditureFinishedGood
 {
     public class GarmentLeftoverWarehouseExpenditureFinishedGoodDataUtil
     {

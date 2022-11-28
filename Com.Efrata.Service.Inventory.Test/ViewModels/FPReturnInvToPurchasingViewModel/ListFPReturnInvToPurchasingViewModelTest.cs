@@ -1,10 +1,10 @@
-﻿using Com.Ambassador.Service.Inventory.Lib.ViewModels.FPReturnInvToPurchasingViewModel;
+﻿using Com.Efrata.Service.Inventory.Lib.ViewModels.FPReturnInvToPurchasingViewModel;
 using System;
 using System.Collections.Generic;
 using System.Text;
 using Xunit;
 
-namespace Com.Ambassador.Service.Inventory.Test.ViewModels.FPReturnInvToPurchasingViewModel
+namespace Com.Efrata.Service.Inventory.Test.ViewModels.FPReturnInvToPurchasingViewModel
 {
   public  class ListFPReturnInvToPurchasingViewModelTest
     {

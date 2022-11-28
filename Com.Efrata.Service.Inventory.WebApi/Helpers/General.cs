@@ -1,4 +1,4 @@
-﻿namespace Com.Ambassador.Service.Inventory.WebApi.Helpers
+﻿namespace Com.Efrata.Service.Inventory.WebApi.Helpers
 {
     public static class General
     {

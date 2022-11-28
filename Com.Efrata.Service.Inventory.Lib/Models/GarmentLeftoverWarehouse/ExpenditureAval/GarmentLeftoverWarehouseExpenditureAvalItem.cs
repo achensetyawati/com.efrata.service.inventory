@@ -3,7 +3,7 @@ using System;
 using System.Collections.Generic;
 using System.Text;
 
-namespace Com.Ambassador.Service.Inventory.Lib.Models.GarmentLeftoverWarehouse.ExpenditureAval
+namespace Com.Efrata.Service.Inventory.Lib.Models.GarmentLeftoverWarehouse.ExpenditureAval
 {
     public class GarmentLeftoverWarehouseExpenditureAvalItem : StandardEntity
     {

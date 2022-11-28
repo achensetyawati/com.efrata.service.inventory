@@ -1,9 +1,9 @@
-﻿using Com.Ambassador.Service.Inventory.Lib.Models.GarmentLeftoverWarehouse.GarmentLeftoverWarehouseReceiptFabricModels;
-using Com.Ambassador.Service.Inventory.Lib.Services.GarmentLeftoverWarehouse.GarmentLeftoverWarehouseReceiptFabricServices;
-using Com.Ambassador.Service.Inventory.Lib.ViewModels;
-using Com.Ambassador.Service.Inventory.Lib.ViewModels.GarmentLeftoverWarehouse.GarmentLeftoverWarehouseReceiptFabricViewModels;
-using Com.Ambassador.Service.Inventory.Test.Helpers;
-using Com.Ambassador.Service.Inventory.WebApi.Controllers.v1.GarmentLeftoverWarehouse.GarmentLeftoverWarehouseReceiptFabricControllers;
+﻿using Com.Efrata.Service.Inventory.Lib.Models.GarmentLeftoverWarehouse.GarmentLeftoverWarehouseReceiptFabricModels;
+using Com.Efrata.Service.Inventory.Lib.Services.GarmentLeftoverWarehouse.GarmentLeftoverWarehouseReceiptFabricServices;
+using Com.Efrata.Service.Inventory.Lib.ViewModels;
+using Com.Efrata.Service.Inventory.Lib.ViewModels.GarmentLeftoverWarehouse.GarmentLeftoverWarehouseReceiptFabricViewModels;
+using Com.Efrata.Service.Inventory.Test.Helpers;
+using Com.Efrata.Service.Inventory.WebApi.Controllers.v1.GarmentLeftoverWarehouse.GarmentLeftoverWarehouseReceiptFabricControllers;
 using Moq;
 using System;
 using System.Collections.Generic;
@@ -11,7 +11,7 @@ using System.Net;
 using System.Text;
 using Xunit;
 
-namespace Com.Ambassador.Service.Inventory.Test.Controllers.GarmentLeftoverWarehouse.GarmentLeftoverWarehouseReceiptFabricControllerTests
+namespace Com.Efrata.Service.Inventory.Test.Controllers.GarmentLeftoverWarehouse.GarmentLeftoverWarehouseReceiptFabricControllerTests
 {
     public class BasicTest: BaseControllerTest<GarmentLeftoverWarehouseReceiptFabricController, GarmentLeftoverWarehouseReceiptFabric, GarmentLeftoverWarehouseReceiptFabricViewModel, IGarmentLeftoverWarehouseReceiptFabricService>
     {

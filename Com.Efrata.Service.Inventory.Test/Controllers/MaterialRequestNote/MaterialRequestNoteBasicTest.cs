@@ -1,8 +1,8 @@
-﻿using Com.Ambassador.Service.Inventory.Lib.Models.MaterialsRequestNoteModel;
-using Com.Ambassador.Service.Inventory.Lib.Services.MaterialRequestNoteServices;
-using Com.Ambassador.Service.Inventory.Lib.ViewModels.MaterialsRequestNoteViewModel;
-using Com.Ambassador.Service.Inventory.Test.Helpers;
-using Com.Ambassador.Service.Inventory.WebApi.Controllers.v1.BasicControllers;
+﻿using Com.Efrata.Service.Inventory.Lib.Models.MaterialsRequestNoteModel;
+using Com.Efrata.Service.Inventory.Lib.Services.MaterialRequestNoteServices;
+using Com.Efrata.Service.Inventory.Lib.ViewModels.MaterialsRequestNoteViewModel;
+using Com.Efrata.Service.Inventory.Test.Helpers;
+using Com.Efrata.Service.Inventory.WebApi.Controllers.v1.BasicControllers;
 using Moq;
 using System;
 using System.Collections.Generic;
@@ -10,7 +10,7 @@ using System.Net;
 using System.Threading.Tasks;
 using Xunit;
 
-namespace Com.Ambassador.Service.Inventory.Test.Controllers.MaterialRequestNote
+namespace Com.Efrata.Service.Inventory.Test.Controllers.MaterialRequestNote
 {
     public class MaterialRequestNoteBasicTest : BaseControllerTest<MaterialsRequestNoteController, MaterialsRequestNote, MaterialsRequestNoteViewModel, IMaterialRequestNoteService>
     {

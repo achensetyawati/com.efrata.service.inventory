@@ -1,11 +1,11 @@
-﻿using Com.Ambassador.Service.Inventory.Lib.Models.MaterialsRequestNoteModel;
-using Com.Ambassador.Service.Inventory.Lib.ViewModels.MaterialsRequestNoteViewModel;
+﻿using Com.Efrata.Service.Inventory.Lib.Models.MaterialsRequestNoteModel;
+using Com.Efrata.Service.Inventory.Lib.ViewModels.MaterialsRequestNoteViewModel;
 using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 
-namespace Com.Ambassador.Service.Inventory.Lib.Services.MaterialRequestNoteServices
+namespace Com.Efrata.Service.Inventory.Lib.Services.MaterialRequestNoteServices
 {
     public interface IMaterialRequestNoteService : IBaseService<MaterialsRequestNote, MaterialsRequestNoteViewModel>
     {

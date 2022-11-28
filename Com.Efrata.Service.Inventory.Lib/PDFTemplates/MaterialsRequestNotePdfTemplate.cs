@@ -1,9 +1,9 @@
-﻿using Com.Ambassador.Service.Inventory.Lib.ViewModels.MaterialsRequestNoteViewModel;
+﻿using Com.Efrata.Service.Inventory.Lib.ViewModels.MaterialsRequestNoteViewModel;
 using iTextSharp.text;
 using iTextSharp.text.pdf;
 using System.IO;
 
-namespace Com.Ambassador.Service.Inventory.Lib.PDFTemplates
+namespace Com.Efrata.Service.Inventory.Lib.PDFTemplates
 {
     public class MaterialsRequestNotePdfTemplate
     {
@@ -42,7 +42,7 @@ namespace Com.Ambassador.Service.Inventory.Lib.PDFTemplates
 
             //LEFT
             cb.SetFontAndSize(bf_bold, 14);
-            cb.ShowTextAligned(PdfContentByte.ALIGN_CENTER, "PT AMBASSADOR GARMINDO", 100, 550, 0);
+            cb.ShowTextAligned(PdfContentByte.ALIGN_CENTER, "PT Efrata GARMINDO", 100, 550, 0);
             cb.SetFontAndSize(bf, 10);
             cb.ShowTextAligned(PdfContentByte.ALIGN_CENTER, "INDUSTRIAL & TRADING CO.LTD", 100, 535, 0);
             cb.SetFontAndSize(bf, 9);

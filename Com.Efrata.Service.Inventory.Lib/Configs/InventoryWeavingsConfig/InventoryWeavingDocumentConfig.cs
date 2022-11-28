@@ -1,11 +1,11 @@
-﻿using Com.Ambassador.Service.Inventory.Lib.Models.InventoryWeavingModel;
+﻿using Com.Efrata.Service.Inventory.Lib.Models.InventoryWeavingModel;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Metadata.Builders;
 using System;
 using System.Collections.Generic;
 using System.Text;
 
-namespace Com.Ambassador.Service.Inventory.Lib.Configs.InventoryWeavingsConfig
+namespace Com.Efrata.Service.Inventory.Lib.Configs.InventoryWeavingsConfig
 {
     public class InventoryWeavingDocumentConfig : IEntityTypeConfiguration<InventoryWeavingDocument>
     {

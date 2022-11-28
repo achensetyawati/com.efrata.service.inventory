@@ -1,11 +1,11 @@
-﻿using Com.Ambassador.Service.Inventory.Lib.Models.GarmentLeftoverWarehouse.ExpenditureAval;
+﻿using Com.Efrata.Service.Inventory.Lib.Models.GarmentLeftoverWarehouse.ExpenditureAval;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Metadata.Builders;
 using System;
 using System.Collections.Generic;
 using System.Text;
 
-namespace Com.Ambassador.Service.Inventory.Lib.Configs.GarmentLeftoverWarehouse.ExpenditureAval
+namespace Com.Efrata.Service.Inventory.Lib.Configs.GarmentLeftoverWarehouse.ExpenditureAval
 {
     public class GarmentLeftoverWarehouseExpenditureAvalConfig : IEntityTypeConfiguration<GarmentLeftoverWarehouseExpenditureAval>
     {

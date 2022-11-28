@@ -1,6 +1,6 @@
-﻿using Com.Ambassador.Service.Inventory.Lib.Helpers;
-using Com.Ambassador.Service.Inventory.Lib.Models.InventoryWeavingModel;
-using Com.Ambassador.Service.Inventory.Lib.ViewModels.InventoryWeavingViewModel.Report;
+﻿using Com.Efrata.Service.Inventory.Lib.Helpers;
+using Com.Efrata.Service.Inventory.Lib.Models.InventoryWeavingModel;
+using Com.Efrata.Service.Inventory.Lib.ViewModels.InventoryWeavingViewModel.Report;
 using Com.Moonlay.Models;
 using Com.Moonlay.NetCore.Lib;
 using Microsoft.EntityFrameworkCore;
@@ -16,7 +16,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Com.Ambassador.Service.Inventory.Lib.Services.InventoryWeaving.Reports.ReportExpenseRecapGreigeWeaving
+namespace Com.Efrata.Service.Inventory.Lib.Services.InventoryWeaving.Reports.ReportExpenseRecapGreigeWeaving
 {
     public class ReportExpenseRecapGreigeWeavingService : IReportExpenseRecapGreigeWeavingService
     {

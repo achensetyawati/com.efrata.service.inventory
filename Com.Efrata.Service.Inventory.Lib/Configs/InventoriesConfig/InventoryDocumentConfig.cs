@@ -1,11 +1,11 @@
-﻿using Com.Ambassador.Service.Inventory.Lib.Models.InventoryModel;
+﻿using Com.Efrata.Service.Inventory.Lib.Models.InventoryModel;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Metadata.Builders;
 using System;
 using System.Collections.Generic;
 using System.Text;
 
-namespace Com.Ambassador.Service.Inventory.Lib.Configs.InventoriesConfig
+namespace Com.Efrata.Service.Inventory.Lib.Configs.InventoriesConfig
 {
     public class InventoryDocumentConfig : IEntityTypeConfiguration<InventoryDocument>
     {

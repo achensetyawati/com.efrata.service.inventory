@@ -3,18 +3,18 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using Com.Ambassador.Service.Inventory.Lib.Helpers;
-using Com.Ambassador.Service.Inventory.Lib.Models.FpReturnFromBuyers;
-using Com.Ambassador.Service.Inventory.Lib.Models.InventoryModel;
-using Com.Ambassador.Service.Inventory.Lib.Services.Inventory;
-using Com.Ambassador.Service.Inventory.Lib.ViewModels.FpReturnFromBuyers;
+using Com.Efrata.Service.Inventory.Lib.Helpers;
+using Com.Efrata.Service.Inventory.Lib.Models.FpReturnFromBuyers;
+using Com.Efrata.Service.Inventory.Lib.Models.InventoryModel;
+using Com.Efrata.Service.Inventory.Lib.Services.Inventory;
+using Com.Efrata.Service.Inventory.Lib.ViewModels.FpReturnFromBuyers;
 using Com.Moonlay.Models;
 using Com.Moonlay.NetCore.Lib;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.DependencyInjection;
 using Newtonsoft.Json;
 
-namespace Com.Ambassador.Service.Inventory.Lib.Services.FpReturnFromBuyers
+namespace Com.Efrata.Service.Inventory.Lib.Services.FpReturnFromBuyers
 {
     public class FpReturnFromBuyerService : IFpReturnFromBuyerService
     {

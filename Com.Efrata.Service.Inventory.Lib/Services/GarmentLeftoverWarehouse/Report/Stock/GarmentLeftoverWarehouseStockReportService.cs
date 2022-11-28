@@ -1,6 +1,6 @@
-﻿using Com.Ambassador.Service.Inventory.Lib.Enums;
-using Com.Ambassador.Service.Inventory.Lib.Helpers;
-using Com.Ambassador.Service.Inventory.Lib.ViewModels.GarmentLeftoverWarehouse.Stock;
+﻿using Com.Efrata.Service.Inventory.Lib.Enums;
+using Com.Efrata.Service.Inventory.Lib.Helpers;
+using Com.Efrata.Service.Inventory.Lib.ViewModels.GarmentLeftoverWarehouse.Stock;
 using Com.Moonlay.Models;
 using Com.Moonlay.NetCore.Lib;
 using Microsoft.EntityFrameworkCore;
@@ -15,7 +15,7 @@ using System.Net.Http;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Com.Ambassador.Service.Inventory.Lib.Services.GarmentLeftoverWarehouse.Report.Stock
+namespace Com.Efrata.Service.Inventory.Lib.Services.GarmentLeftoverWarehouse.Report.Stock
 {
     public class GarmentLeftoverWarehouseStockReportService : IGarmentLeftoverWarehouseStockReportService
     {

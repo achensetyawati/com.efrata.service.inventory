@@ -1,13 +1,13 @@
-﻿using Com.Ambassador.Service.Inventory.Lib.Services.GarmentLeftoverWarehouse.ReceiptAccessories;
-using Com.Ambassador.Service.Inventory.Lib.ViewModels.GarmentLeftoverWarehouse.ReceiptAccessories;
-using Com.Ambassador.Service.Inventory.Lib.Models.GarmentLeftoverWarehouse.ReceiptAccessories;
+﻿using Com.Efrata.Service.Inventory.Lib.Services.GarmentLeftoverWarehouse.ReceiptAccessories;
+using Com.Efrata.Service.Inventory.Lib.ViewModels.GarmentLeftoverWarehouse.ReceiptAccessories;
+using Com.Efrata.Service.Inventory.Lib.Models.GarmentLeftoverWarehouse.ReceiptAccessories;
 using System;
 using System.Collections.Generic;
 using System.Text;
 using System.Threading.Tasks;
-using Com.Ambassador.Service.Inventory.Lib.Helpers;
+using Com.Efrata.Service.Inventory.Lib.Helpers;
 
-namespace Com.Ambassador.Service.Inventory.Test.DataUtils.GarmentLeftoverWarehouse.ReceiptAccessories
+namespace Com.Efrata.Service.Inventory.Test.DataUtils.GarmentLeftoverWarehouse.ReceiptAccessories
 {
     public class GarmentLeftoverWarehouseReceiptAccessoriesDataUtil
     {

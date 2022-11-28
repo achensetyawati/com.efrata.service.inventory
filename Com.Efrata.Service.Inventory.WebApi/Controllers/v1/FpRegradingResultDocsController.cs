@@ -1,18 +1,18 @@
-﻿using Com.Ambassador.Service.Inventory.Lib;
-using Com.Ambassador.Service.Inventory.Lib.Models;
-using Com.Ambassador.Service.Inventory.Lib.Services;
-using Com.Ambassador.Service.Inventory.Lib.ViewModels;
-using Com.Ambassador.Service.Inventory.WebApi.Helpers;
+﻿using Com.Efrata.Service.Inventory.Lib;
+using Com.Efrata.Service.Inventory.Lib.Models;
+using Com.Efrata.Service.Inventory.Lib.Services;
+using Com.Efrata.Service.Inventory.Lib.ViewModels;
+using Com.Efrata.Service.Inventory.WebApi.Helpers;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
-using Com.Ambassador.Service.Inventory.Lib.PDFTemplates;
+using Com.Efrata.Service.Inventory.Lib.PDFTemplates;
 using System.IO;
 using System.Threading.Tasks;
 using System;
 using System.Collections.Generic;
-using Com.Ambassador.Service.Inventory.Lib.Services.FpRegradingResultDocs;
+using Com.Efrata.Service.Inventory.Lib.Services.FpRegradingResultDocs;
 
-namespace Com.Ambassador.Service.Inventory.WebApi.Controllers.v1.BasicControllers
+namespace Com.Efrata.Service.Inventory.WebApi.Controllers.v1.BasicControllers
 {
     [Produces("application/json")]
     [ApiVersion("1.0")]

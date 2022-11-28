@@ -1,9 +1,9 @@
-﻿using Com.Ambassador.Service.Inventory.Lib.Models.InventoryModel;
-using Com.Ambassador.Service.Inventory.Lib.Services.Inventory;
-using Com.Ambassador.Service.Inventory.Lib.ViewModels.InventoryViewModel;
+﻿using Com.Efrata.Service.Inventory.Lib.Models.InventoryModel;
+using Com.Efrata.Service.Inventory.Lib.Services.Inventory;
+using Com.Efrata.Service.Inventory.Lib.ViewModels.InventoryViewModel;
 using System.Threading.Tasks;
 
-namespace Com.Ambassador.Service.Inventory.Test.DataUtils.InventoryDataUtils
+namespace Com.Efrata.Service.Inventory.Test.DataUtils.InventoryDataUtils
 {
     public class InventorySummaryDataUtil
     {

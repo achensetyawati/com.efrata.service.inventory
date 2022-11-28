@@ -4,7 +4,7 @@ using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
 using System.Text;
 
-namespace Com.Ambassador.Service.Inventory.Lib.Models.GarmentLeftoverWarehouse.BalanceStock
+namespace Com.Efrata.Service.Inventory.Lib.Models.GarmentLeftoverWarehouse.BalanceStock
 {
     public class GarmentLeftoverWarehouseBalanceStock : StandardEntity, IValidatableObject
     {

@@ -1,6 +1,6 @@
 ﻿using Microsoft.EntityFrameworkCore.Migrations;
 
-namespace Com.Ambassador.Service.Inventory.Lib.Migrations
+namespace Com.Efrata.Service.Inventory.Lib.Migrations
 {
     public partial class add_BasicPrice_GLW : Migration
     {

@@ -3,7 +3,7 @@ using System;
 using System.Collections.Generic;
 using System.Text;
 
-namespace Com.Ambassador.Service.Inventory.Lib.Models.InventoryWeavingModel
+namespace Com.Efrata.Service.Inventory.Lib.Models.InventoryWeavingModel
 {
     public class InventoryWeavingMovement : StandardEntity
     {

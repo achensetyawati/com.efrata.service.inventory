@@ -1,5 +1,5 @@
-﻿using Com.Ambassador.Service.Inventory.Lib.Models.InventoryWeavingModel;
-using Com.Ambassador.Service.Inventory.Lib.ViewModels.InventoryWeavingViewModel;
+﻿using Com.Efrata.Service.Inventory.Lib.Models.InventoryWeavingModel;
+using Com.Efrata.Service.Inventory.Lib.ViewModels.InventoryWeavingViewModel;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Primitives;
 using System;
@@ -11,14 +11,14 @@ using System.Text;
 using CsvHelper.TypeConversion;
 using System.Threading.Tasks;
 using Com.Moonlay.Models;
-using Com.Ambassador.Service.Inventory.Lib.Helpers;
+using Com.Efrata.Service.Inventory.Lib.Helpers;
 using Newtonsoft.Json;
 using Com.Moonlay.NetCore.Lib;
 using System.IO;
 using System.Data;
 using System.Globalization;
 
-namespace Com.Ambassador.Service.Inventory.Lib.Services.InventoryWeaving
+namespace Com.Efrata.Service.Inventory.Lib.Services.InventoryWeaving
 {
     public class InventoryWeavingDocumentUploadService : IInventoryWeavingDocumentUploadService
     {

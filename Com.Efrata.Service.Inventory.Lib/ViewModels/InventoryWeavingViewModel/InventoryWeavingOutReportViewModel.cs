@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace Com.Ambassador.Service.Inventory.Lib.ViewModels.InventoryWeavingViewModel
+namespace Com.Efrata.Service.Inventory.Lib.ViewModels.InventoryWeavingViewModel
 {
     public class InventoryWeavingOutReportViewModel
     {

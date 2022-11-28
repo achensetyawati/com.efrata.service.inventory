@@ -1,10 +1,10 @@
-﻿using Com.Ambassador.Service.Inventory.Lib.Helpers;
-using Com.Ambassador.Service.Inventory.Lib.Models.FPReturnInvToPurchasingModel;
-using Com.Ambassador.Service.Inventory.Lib.Models.InventoryModel;
-using Com.Ambassador.Service.Inventory.Lib.Services.FpRegradingResultDocs;
-using Com.Ambassador.Service.Inventory.Lib.Services.Inventory;
-using Com.Ambassador.Service.Inventory.Lib.ViewModels;
-using Com.Ambassador.Service.Inventory.Lib.ViewModels.FPReturnInvToPurchasingViewModel;
+﻿using Com.Efrata.Service.Inventory.Lib.Helpers;
+using Com.Efrata.Service.Inventory.Lib.Models.FPReturnInvToPurchasingModel;
+using Com.Efrata.Service.Inventory.Lib.Models.InventoryModel;
+using Com.Efrata.Service.Inventory.Lib.Services.FpRegradingResultDocs;
+using Com.Efrata.Service.Inventory.Lib.Services.Inventory;
+using Com.Efrata.Service.Inventory.Lib.ViewModels;
+using Com.Efrata.Service.Inventory.Lib.ViewModels.FPReturnInvToPurchasingViewModel;
 using Com.Moonlay.Models;
 using Com.Moonlay.NetCore.Lib;
 using Microsoft.EntityFrameworkCore;
@@ -16,7 +16,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Com.Ambassador.Service.Inventory.Lib.Services.FPReturnInvToPurchasingService
+namespace Com.Efrata.Service.Inventory.Lib.Services.FPReturnInvToPurchasingService
 {
     public class NewFPReturnInvToPurchasingService : IFPReturnInvToPurchasingService
     {

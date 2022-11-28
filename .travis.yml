@@ -3,7 +3,7 @@ dist: trusty
 language: csharp
 mono: none
 dotnet: 2.0.0
-solution: Com.Ambassador.Service.Inventory.sln
+solution: Com.Efrata.Service.Inventory.sln
 services:
     - docker
 env:
@@ -20,14 +20,14 @@ before_script:
     - sleep 60
 
 script:
-    - dotnet restore Com.Ambassador.Service.Inventory.Test/Com.Ambassador.Service.Inventory.Test.csproj
-    - dotnet build Com.Ambassador.Service.Inventory.Test/Com.Ambassador.Service.Inventory.Test.csproj
-    - dotnet test Com.Ambassador.Service.Inventory.Test/Com.Ambassador.Service.Inventory.Test.csproj /p:CollectCoverage=true /p:CoverletOutputFormat=lcov
+    - dotnet restore Com.Efrata.Service.Inventory.Test/Com.Efrata.Service.Inventory.Test.csproj
+    - dotnet build Com.Efrata.Service.Inventory.Test/Com.Efrata.Service.Inventory.Test.csproj
+    - dotnet test Com.Efrata.Service.Inventory.Test/Com.Efrata.Service.Inventory.Test.csproj /p:CollectCoverage=true /p:CoverletOutputFormat=lcov
 
 after_success:
     - curl -s https://codecov.io/bash > codecov
     - chmod +x codecov
-    - ./codecov -f "/home/travis/build/danliris/com.Ambassador.service.inventory/Com.Ambassador.Service.Inventory.Test/coverage.info"
+    - ./codecov -f "/home/travis/build/danliris/com.Efrata.service.inventory/Com.Efrata.Service.Inventory.Test/coverage.info"
     - if [ "$TRAVIS_PULL_REQUEST" == false ]; then
       docker login -u="$DOCKER_USERNAME" -p="$DOCKER_PASSWORD";
 

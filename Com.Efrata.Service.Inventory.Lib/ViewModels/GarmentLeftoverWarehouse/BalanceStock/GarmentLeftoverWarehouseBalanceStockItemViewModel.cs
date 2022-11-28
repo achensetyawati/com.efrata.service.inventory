@@ -1,9 +1,9 @@
-﻿using Com.Ambassador.Service.Inventory.Lib.Helpers;
+﻿using Com.Efrata.Service.Inventory.Lib.Helpers;
 using System;
 using System.Collections.Generic;
 using System.Text;
 
-namespace Com.Ambassador.Service.Inventory.Lib.ViewModels.GarmentLeftoverWarehouse.BalanceStock
+namespace Com.Efrata.Service.Inventory.Lib.ViewModels.GarmentLeftoverWarehouse.BalanceStock
 {
     public class GarmentLeftoverWarehouseBalanceStockItemViewModel : BasicViewModel
     {

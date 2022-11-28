@@ -1,5 +1,5 @@
-﻿using Com.Ambassador.Service.Inventory.Lib.ViewModels;
-using Com.Ambassador.Service.Inventory.Lib.ViewModels.GarmentLeftoverWarehouse.ExpenditureFabric;
+﻿using Com.Efrata.Service.Inventory.Lib.ViewModels;
+using Com.Efrata.Service.Inventory.Lib.ViewModels.GarmentLeftoverWarehouse.ExpenditureFabric;
 using iTextSharp.text;
 using iTextSharp.text.pdf;
 using iTextSharp.text.pdf.draw;
@@ -9,7 +9,7 @@ using System.IO;
 using System.Linq;
 using System.Text;
 
-namespace Com.Ambassador.Service.Inventory.Lib.PDFTemplates.GarmentLeftoverWarehouse
+namespace Com.Efrata.Service.Inventory.Lib.PDFTemplates.GarmentLeftoverWarehouse
 {
     public class GarmentLeftoverWarehouseExpenditureFabricPDFTemplate
     {
@@ -36,7 +36,7 @@ namespace Com.Ambassador.Service.Inventory.Lib.PDFTemplates.GarmentLeftoverWareh
             title.Alignment = Element.ALIGN_CENTER;
             document.Add(title);
 
-            Paragraph danliris = new Paragraph("PT. AMBASSADOR GARMINDO", bold_font);
+            Paragraph danliris = new Paragraph("PT. Efrata GARMINDO", bold_font);
             document.Add(danliris);
             Paragraph address = new Paragraph("BANARAN, GROGOL, SUKOHARJO", normal_font);
             document.Add(address);

@@ -1,7 +1,7 @@
-﻿using Com.Ambassador.Service.Inventory.Lib.Helpers;
-using Com.Ambassador.Service.Inventory.Lib.Migrations;
-using Com.Ambassador.Service.Inventory.Lib.ViewModels;
-using Com.Ambassador.Service.Inventory.Lib.ViewModels.GarmentLeftoverWarehouse.Report.Receipt;
+﻿using Com.Efrata.Service.Inventory.Lib.Helpers;
+using Com.Efrata.Service.Inventory.Lib.Migrations;
+using Com.Efrata.Service.Inventory.Lib.ViewModels;
+using Com.Efrata.Service.Inventory.Lib.ViewModels.GarmentLeftoverWarehouse.Report.Receipt;
 using Microsoft.EntityFrameworkCore;
 using Newtonsoft.Json;
 using OfficeOpenXml;
@@ -13,7 +13,7 @@ using System.IO;
 using System.Linq;
 using System.Text;
 
-namespace Com.Ambassador.Service.Inventory.Lib.Services.GarmentLeftoverWarehouse.Report.Receipt
+namespace Com.Efrata.Service.Inventory.Lib.Services.GarmentLeftoverWarehouse.Report.Receipt
 {
     public class ReceiptMonitoringService : IReceiptMonitoringService
     {

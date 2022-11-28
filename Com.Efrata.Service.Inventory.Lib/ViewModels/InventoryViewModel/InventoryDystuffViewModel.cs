@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace Com.Ambassador.Service.Inventory.Lib.ViewModels.InventoryViewModel
+namespace Com.Efrata.Service.Inventory.Lib.ViewModels.InventoryViewModel
 {
     public class InventoryDystuffViewModel
     {

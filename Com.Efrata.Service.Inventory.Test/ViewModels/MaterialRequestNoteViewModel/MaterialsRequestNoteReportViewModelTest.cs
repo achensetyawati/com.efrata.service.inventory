@@ -1,10 +1,10 @@
-﻿using Com.Ambassador.Service.Inventory.Lib.ViewModels.MaterialsRequestNoteViewModel;
+﻿using Com.Efrata.Service.Inventory.Lib.ViewModels.MaterialsRequestNoteViewModel;
 using System;
 using System.Collections.Generic;
 using System.Text;
 using Xunit;
 
-namespace Com.Ambassador.Service.Inventory.Test.ViewModels.MaterialRequestNoteViewModel
+namespace Com.Efrata.Service.Inventory.Test.ViewModels.MaterialRequestNoteViewModel
 {
     public class MaterialsRequestNoteReportViewModelTest
     {

@@ -1,9 +1,9 @@
-﻿using Com.Ambassador.Service.Inventory.Lib.Helpers;
+﻿using Com.Efrata.Service.Inventory.Lib.Helpers;
 using System.ComponentModel.DataAnnotations;
 using System.Collections.Generic;
 using System.Linq;
 
-namespace Com.Ambassador.Service.Inventory.Lib.ViewModels.StockTransferNoteViewModel
+namespace Com.Efrata.Service.Inventory.Lib.ViewModels.StockTransferNoteViewModel
 {
     public class StockTransferNoteViewModel : BasicViewModel, IValidatableObject
     {

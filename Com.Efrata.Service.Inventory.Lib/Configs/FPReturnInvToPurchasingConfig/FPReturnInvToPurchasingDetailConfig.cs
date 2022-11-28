@@ -1,11 +1,11 @@
-﻿using Com.Ambassador.Service.Inventory.Lib.Models.FPReturnInvToPurchasingModel;
+﻿using Com.Efrata.Service.Inventory.Lib.Models.FPReturnInvToPurchasingModel;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Metadata.Builders;
 using System;
 using System.Collections.Generic;
 using System.Text;
 
-namespace Com.Ambassador.Service.Inventory.Lib.Configs.FPReturnInvToPurchasingConfig
+namespace Com.Efrata.Service.Inventory.Lib.Configs.FPReturnInvToPurchasingConfig
 {
     public class FPReturnInvToPurchasingDetailConfig : IEntityTypeConfiguration<FPReturnInvToPurchasingDetail>
     {

@@ -5,7 +5,7 @@ using System.ComponentModel.DataAnnotations;
 using System.Linq;
 using System.Linq.Dynamic.Core;
 
-namespace Com.Ambassador.Service.Inventory.Lib.Helpers
+namespace Com.Efrata.Service.Inventory.Lib.Helpers
 {
     public static class QueryHelper<TModel>
          where TModel : StandardEntity

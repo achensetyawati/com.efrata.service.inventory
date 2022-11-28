@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace Com.Ambassador.Service.Inventory.Test.Interfaces
+namespace Com.Efrata.Service.Inventory.Test.Interfaces
 {
     public interface IEmptyData<T>
     {

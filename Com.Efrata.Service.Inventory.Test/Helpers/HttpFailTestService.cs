@@ -1,9 +1,9 @@
-﻿using Com.Ambassador.Service.Inventory.Lib.Services;
+﻿using Com.Efrata.Service.Inventory.Lib.Services;
 using Newtonsoft.Json;
 using System.Net.Http;
 using System.Threading.Tasks;
 
-namespace Com.Ambassador.Service.Inventory.Test.Helpers
+namespace Com.Efrata.Service.Inventory.Test.Helpers
 {
     public class HttpFailTestService : IHttpService
     {

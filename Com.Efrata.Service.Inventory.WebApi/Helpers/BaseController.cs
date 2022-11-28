@@ -1,5 +1,5 @@
-﻿using Com.Ambassador.Service.Inventory.Lib.Helpers;
-using Com.Ambassador.Service.Inventory.Lib.Services;
+﻿using Com.Efrata.Service.Inventory.Lib.Helpers;
+using Com.Efrata.Service.Inventory.Lib.Services;
 using Com.Moonlay.Models;
 using Com.Moonlay.NetCore.Lib.Service;
 using Microsoft.AspNetCore.Mvc;
@@ -9,7 +9,7 @@ using System.ComponentModel.DataAnnotations;
 using System.Linq;
 using System.Threading.Tasks;
 
-namespace Com.Ambassador.Service.Inventory.WebApi.Helpers
+namespace Com.Efrata.Service.Inventory.WebApi.Helpers
 {
     public abstract class BaseController<TModel, TViewModel, IService> : Controller
         where TModel : StandardEntity, IValidatableObject

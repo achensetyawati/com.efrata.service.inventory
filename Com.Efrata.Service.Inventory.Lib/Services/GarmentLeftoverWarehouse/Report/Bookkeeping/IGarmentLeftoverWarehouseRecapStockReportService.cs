@@ -1,10 +1,10 @@
-﻿using Com.Ambassador.Service.Inventory.Lib.ViewModels.GarmentLeftoverWarehouse.Report.Bookkeeping;
+﻿using Com.Efrata.Service.Inventory.Lib.ViewModels.GarmentLeftoverWarehouse.Report.Bookkeeping;
 using System;
 using System.Collections.Generic;
 using System.IO;
 using System.Text;
 
-namespace Com.Ambassador.Service.Inventory.Lib.Services.GarmentLeftoverWarehouse.Report.Bookkeeping
+namespace Com.Efrata.Service.Inventory.Lib.Services.GarmentLeftoverWarehouse.Report.Bookkeeping
 {
     public interface IGarmentLeftoverWarehouseRecapStockReportService
     {

@@ -1,9 +1,9 @@
-﻿using Com.Ambassador.Service.Inventory.Lib;
-using Com.Ambassador.Service.Inventory.Lib.Services.FpRegradingResultDocs;
-using Com.Ambassador.Service.Inventory.Lib.ViewModels;
-using Com.Ambassador.Service.Inventory.Test.DataUtils.FpRegradingResultDataUtil;
-using Com.Ambassador.Service.Inventory.Test.Helpers;
-using Com.Ambassador.Service.Inventory.WebApi.Controllers.v1.BasicControllers;
+﻿using Com.Efrata.Service.Inventory.Lib;
+using Com.Efrata.Service.Inventory.Lib.Services.FpRegradingResultDocs;
+using Com.Efrata.Service.Inventory.Lib.ViewModels;
+using Com.Efrata.Service.Inventory.Test.DataUtils.FpRegradingResultDataUtil;
+using Com.Efrata.Service.Inventory.Test.Helpers;
+using Com.Efrata.Service.Inventory.WebApi.Controllers.v1.BasicControllers;
 using Moq;
 using System;
 using System.Collections.Generic;
@@ -11,7 +11,7 @@ using System.Net;
 using System.Text;
 using Xunit;
 
-namespace Com.Ambassador.Service.Inventory.Test.Controllers.FpRegradingResultDocs
+namespace Com.Efrata.Service.Inventory.Test.Controllers.FpRegradingResultDocs
 {
 
     public class FpRegradingResultDocsBasicTest : BaseControllerTest<FpRegradingResultDocsController, Lib.Models.FpRegradingResultDocs, FpRegradingResultDocsViewModel, IFpRegradingResultDocsService>

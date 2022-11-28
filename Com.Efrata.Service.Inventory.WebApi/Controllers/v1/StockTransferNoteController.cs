@@ -1,19 +1,19 @@
 ﻿using Microsoft.AspNetCore.Mvc;
-using Com.Ambassador.Service.Inventory.WebApi.Helpers;
-using Com.Ambassador.Service.Inventory.Lib;
+using Com.Efrata.Service.Inventory.WebApi.Helpers;
+using Com.Efrata.Service.Inventory.Lib;
 using Microsoft.AspNetCore.Authorization;
-using Com.Ambassador.Service.Inventory.Lib.Services.StockTransferNoteService;
-using Com.Ambassador.Service.Inventory.Lib.ViewModels.StockTransferNoteViewModel;
-using Com.Ambassador.Service.Inventory.Lib.Models.StockTransferNoteModel;
+using Com.Efrata.Service.Inventory.Lib.Services.StockTransferNoteService;
+using Com.Efrata.Service.Inventory.Lib.ViewModels.StockTransferNoteViewModel;
+using Com.Efrata.Service.Inventory.Lib.Models.StockTransferNoteModel;
 using System.Collections.Generic;
 using System;
 using System.Linq;
-using Com.Ambassador.Service.Inventory.Lib.PDFTemplates;
+using Com.Efrata.Service.Inventory.Lib.PDFTemplates;
 using System.IO;
 using System.Threading.Tasks;
-using Com.Ambassador.Service.Inventory.Lib.Services;
+using Com.Efrata.Service.Inventory.Lib.Services;
 
-namespace Com.Ambassador.Service.Inventory.WebApi.Controllers.v1
+namespace Com.Efrata.Service.Inventory.WebApi.Controllers.v1
 {
     [Produces("application/json")]
     [ApiVersion("1.0")]

@@ -1,5 +1,5 @@
-﻿using Com.Ambassador.Service.Inventory.Lib.Helpers;
-using Com.Ambassador.Service.Inventory.Lib.Services.GarmentLeftoverWarehouse.ExpenditureAccessories;
+﻿using Com.Efrata.Service.Inventory.Lib.Helpers;
+using Com.Efrata.Service.Inventory.Lib.Services.GarmentLeftoverWarehouse.ExpenditureAccessories;
 using Newtonsoft.Json;
 using System;
 using System.Collections.Generic;
@@ -7,7 +7,7 @@ using System.ComponentModel.DataAnnotations;
 using System.Linq;
 using System.Text;
 
-namespace Com.Ambassador.Service.Inventory.Lib.ViewModels.GarmentLeftoverWarehouse.ExpenditureAccessories
+namespace Com.Efrata.Service.Inventory.Lib.ViewModels.GarmentLeftoverWarehouse.ExpenditureAccessories
 {
     public class GarmentLeftoverWarehouseExpenditureAccessoriesViewModel : BasicViewModel, IValidatableObject
     {

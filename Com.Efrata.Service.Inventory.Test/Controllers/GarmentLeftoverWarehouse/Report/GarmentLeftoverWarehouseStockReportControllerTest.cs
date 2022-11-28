@@ -1,7 +1,7 @@
-﻿using Com.Ambassador.Service.Inventory.Lib.Services;
-using Com.Ambassador.Service.Inventory.Lib.Services.GarmentLeftoverWarehouse.Report.Stock;
-using Com.Ambassador.Service.Inventory.Lib.ViewModels.GarmentLeftoverWarehouse.Stock;
-using Com.Ambassador.Service.Inventory.WebApi.Controllers.v1.GarmentLeftoverWarehouse.Report;
+﻿using Com.Efrata.Service.Inventory.Lib.Services;
+using Com.Efrata.Service.Inventory.Lib.Services.GarmentLeftoverWarehouse.Report.Stock;
+using Com.Efrata.Service.Inventory.Lib.ViewModels.GarmentLeftoverWarehouse.Stock;
+using Com.Efrata.Service.Inventory.WebApi.Controllers.v1.GarmentLeftoverWarehouse.Report;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using Moq;
@@ -13,7 +13,7 @@ using System.Security.Claims;
 using System.Text;
 using Xunit;
 
-namespace Com.Ambassador.Service.Inventory.Test.Controllers.GarmentLeftoverWarehouse.Report
+namespace Com.Efrata.Service.Inventory.Test.Controllers.GarmentLeftoverWarehouse.Report
 {
     public class GarmentLeftoverWarehouseStockReportControllerTest
     {

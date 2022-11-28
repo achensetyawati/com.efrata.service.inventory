@@ -2,8 +2,8 @@
 using System.Collections.Generic;
 using System.IO;
 using System.Text;
-using Com.Ambassador.Service.Inventory.Lib.Models.GarmentLeftoverWarehouse.ExpenditureAval;
-using Com.Ambassador.Service.Inventory.Lib.ViewModels.GarmentLeftoverWarehouse.Report.Expenditure;
+using Com.Efrata.Service.Inventory.Lib.Models.GarmentLeftoverWarehouse.ExpenditureAval;
+using Com.Efrata.Service.Inventory.Lib.ViewModels.GarmentLeftoverWarehouse.Report.Expenditure;
 using Microsoft.EntityFrameworkCore;
 using System.Linq;
 using Newtonsoft.Json;
@@ -12,7 +12,7 @@ using System.Globalization;
 using OfficeOpenXml;
 using OfficeOpenXml.Style;
 
-namespace Com.Ambassador.Service.Inventory.Lib.Services.GarmentLeftoverWarehouse.Report.Expenditure.Aval
+namespace Com.Efrata.Service.Inventory.Lib.Services.GarmentLeftoverWarehouse.Report.Expenditure.Aval
 {
     public class ExpenditureAvalMonitoringService : IExpenditureAvalMonitoringService
     {

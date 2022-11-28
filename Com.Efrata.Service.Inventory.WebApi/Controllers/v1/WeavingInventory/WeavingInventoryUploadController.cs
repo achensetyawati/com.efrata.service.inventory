@@ -1,9 +1,9 @@
 ﻿using AutoMapper;
-using Com.Ambassador.Service.Inventory.Lib.Models.InventoryWeavingModel;
-using Com.Ambassador.Service.Inventory.Lib.Services;
-using Com.Ambassador.Service.Inventory.Lib.Services.InventoryWeaving;
-using Com.Ambassador.Service.Inventory.Lib.ViewModels.InventoryWeavingViewModel;
-using Com.Ambassador.Service.Inventory.WebApi.Helpers;
+using Com.Efrata.Service.Inventory.Lib.Models.InventoryWeavingModel;
+using Com.Efrata.Service.Inventory.Lib.Services;
+using Com.Efrata.Service.Inventory.Lib.Services.InventoryWeaving;
+using Com.Efrata.Service.Inventory.Lib.ViewModels.InventoryWeavingViewModel;
+using Com.Efrata.Service.Inventory.WebApi.Helpers;
 using Com.Moonlay.NetCore.Lib.Service;
 using CsvHelper;
 using Microsoft.AspNetCore.Authorization;
@@ -14,9 +14,9 @@ using System.IO;
 using System.Linq;
 using System.Net;
 using System.Threading.Tasks;
-using static Com.Ambassador.Service.Inventory.Lib.Services.InventoryWeaving.InventoryWeavingDocumentUploadService;
+using static Com.Efrata.Service.Inventory.Lib.Services.InventoryWeaving.InventoryWeavingDocumentUploadService;
 
-namespace Com.Ambassador.Service.Inventory.WebApi.Controllers.v1.WeavingInventory
+namespace Com.Efrata.Service.Inventory.WebApi.Controllers.v1.WeavingInventory
 {
     [Produces("application/json")]
     [ApiVersion("1.0")]

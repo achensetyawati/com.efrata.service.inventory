@@ -1,11 +1,11 @@
-﻿using Com.Ambassador.Service.Inventory.Lib.Helpers;
+﻿using Com.Efrata.Service.Inventory.Lib.Helpers;
 using System;
 using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
 using System.Text;
 using Newtonsoft.Json;
 
-namespace Com.Ambassador.Service.Inventory.Lib.ViewModels.GarmentLeftoverWarehouse.GarmentLeftoverWarehouseReceiptAvalViewModels
+namespace Com.Efrata.Service.Inventory.Lib.ViewModels.GarmentLeftoverWarehouse.GarmentLeftoverWarehouseReceiptAvalViewModels
 {
     public class GarmentLeftoverWarehouseReceiptAvalViewModel : BasicViewModel, IValidatableObject
     {

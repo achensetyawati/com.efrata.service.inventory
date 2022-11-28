@@ -1,12 +1,12 @@
-﻿using Com.Ambassador.Service.Inventory.Lib.Helpers;
-using Com.Ambassador.Service.Inventory.Lib.Models.InventoryWeavingModel;
-using Com.Ambassador.Service.Inventory.Lib.ViewModels.InventoryWeavingViewModel;
+﻿using Com.Efrata.Service.Inventory.Lib.Helpers;
+using Com.Efrata.Service.Inventory.Lib.Models.InventoryWeavingModel;
+using Com.Efrata.Service.Inventory.Lib.ViewModels.InventoryWeavingViewModel;
 using System;
 using System.Collections.Generic;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Com.Ambassador.Service.Inventory.Lib.Services.InventoryWeaving
+namespace Com.Efrata.Service.Inventory.Lib.Services.InventoryWeaving
 {
     public interface IInventoryWeavingDocumentAdjService
     {

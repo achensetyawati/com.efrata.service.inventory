@@ -1,10 +1,10 @@
-﻿using Com.Ambassador.Service.Inventory.Lib.ViewModels.GarmentLeftoverWarehouse.Stock;
+﻿using Com.Efrata.Service.Inventory.Lib.ViewModels.GarmentLeftoverWarehouse.Stock;
 using System;
 using System.Collections.Generic;
 using System.Text;
 using Xunit;
 
-namespace Com.Ambassador.Service.Inventory.Test.ViewModels.GarmentLeftoverWarehouse.Stock
+namespace Com.Efrata.Service.Inventory.Test.ViewModels.GarmentLeftoverWarehouse.Stock
 {
     public class GarmentLeftoverWarehouseStockViewModelTest
     {

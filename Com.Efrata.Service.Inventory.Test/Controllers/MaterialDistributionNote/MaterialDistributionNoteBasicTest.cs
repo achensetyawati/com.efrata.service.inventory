@@ -1,18 +1,18 @@
-﻿using Com.Ambassador.Service.Inventory.Lib;
-using Com.Ambassador.Service.Inventory.Lib.Services.MaterialDistributionNoteService;
-using Com.Ambassador.Service.Inventory.Test.Helpers;
-using Model = Com.Ambassador.Service.Inventory.Lib.Models.MaterialDistributionNoteModel;
+﻿using Com.Efrata.Service.Inventory.Lib;
+using Com.Efrata.Service.Inventory.Lib.Services.MaterialDistributionNoteService;
+using Com.Efrata.Service.Inventory.Test.Helpers;
+using Model = Com.Efrata.Service.Inventory.Lib.Models.MaterialDistributionNoteModel;
 using System;
 using System.Collections.Generic;
 using System.Text;
 using Xunit;
-using Com.Ambassador.Service.Inventory.Lib.ViewModels.MaterialDistributionNoteViewModel;
-using Com.Ambassador.Service.Inventory.Test.DataUtils.MaterialDistributionNoteDataUtil;
-using Com.Ambassador.Service.Inventory.WebApi.Controllers.v1.BasicControllers;
+using Com.Efrata.Service.Inventory.Lib.ViewModels.MaterialDistributionNoteViewModel;
+using Com.Efrata.Service.Inventory.Test.DataUtils.MaterialDistributionNoteDataUtil;
+using Com.Efrata.Service.Inventory.WebApi.Controllers.v1.BasicControllers;
 using Moq;
 using System.Net;
 
-namespace Com.Ambassador.Service.Inventory.Test.Controllers.MaterialDistributionNote
+namespace Com.Efrata.Service.Inventory.Test.Controllers.MaterialDistributionNote
 {
     
     public class MaterialDistributionNoteBasicTest : BaseControllerTest<MaterialDistributionNoteController, Model.MaterialDistributionNote, MaterialDistributionNoteViewModel, IMaterialDistributionService>

@@ -1,8 +1,8 @@
-﻿using Com.Ambassador.Service.Inventory.Lib.Models.GarmentLeftoverWarehouse.Stock;
+﻿using Com.Efrata.Service.Inventory.Lib.Models.GarmentLeftoverWarehouse.Stock;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Metadata.Builders;
 
-namespace Com.Ambassador.Service.Inventory.Lib.Configs.GarmentLeftoverWarehouse.Stock
+namespace Com.Efrata.Service.Inventory.Lib.Configs.GarmentLeftoverWarehouse.Stock
 {
     public class GarmentLeftoverWarehouseStockConfig : IEntityTypeConfiguration<GarmentLeftoverWarehouseStock>
     {

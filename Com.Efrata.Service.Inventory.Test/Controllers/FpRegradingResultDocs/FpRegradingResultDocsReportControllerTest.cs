@@ -1,7 +1,7 @@
-﻿using Com.Ambassador.Service.Inventory.Lib.Services;
-using Com.Ambassador.Service.Inventory.Lib.Services.FpRegradingResultDocs;
-using Com.Ambassador.Service.Inventory.Lib.ViewModels;
-using Com.Ambassador.Service.Inventory.WebApi.Controllers.v1;
+﻿using Com.Efrata.Service.Inventory.Lib.Services;
+using Com.Efrata.Service.Inventory.Lib.Services.FpRegradingResultDocs;
+using Com.Efrata.Service.Inventory.Lib.ViewModels;
+using Com.Efrata.Service.Inventory.WebApi.Controllers.v1;
 using Com.Moonlay.NetCore.Lib.Service;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
@@ -14,7 +14,7 @@ using System.Security.Claims;
 using System.Text;
 using Xunit;
 
-namespace Com.Ambassador.Service.Inventory.Test.Controllers.FpRegradingResultDocs
+namespace Com.Efrata.Service.Inventory.Test.Controllers.FpRegradingResultDocs
 {
     public class FpRegradingResultDocsReportControllerTest
     {

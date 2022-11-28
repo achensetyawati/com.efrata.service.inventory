@@ -1,10 +1,10 @@
-﻿using Com.Ambassador.Service.Inventory.Lib.ViewModels.InventoryViewModel;
+﻿using Com.Efrata.Service.Inventory.Lib.ViewModels.InventoryViewModel;
 using System;
 using System.Collections.Generic;
 using System.IO;
 using System.Text;
 
-namespace Com.Ambassador.Service.Inventory.Lib.Services.Inventory
+namespace Com.Efrata.Service.Inventory.Lib.Services.Inventory
 {
     public interface IInventoryDystuffService
     {

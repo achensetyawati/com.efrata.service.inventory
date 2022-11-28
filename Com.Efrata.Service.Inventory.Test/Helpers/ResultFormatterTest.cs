@@ -1,6 +1,6 @@
-﻿using Com.Ambassador.Service.Inventory.Lib.Models.StockTransferNoteModel;
-using Com.Ambassador.Service.Inventory.Lib.ViewModels.StockTransferNoteViewModel;
-using Com.Ambassador.Service.Inventory.WebApi.Helpers;
+﻿using Com.Efrata.Service.Inventory.Lib.Models.StockTransferNoteModel;
+using Com.Efrata.Service.Inventory.Lib.ViewModels.StockTransferNoteViewModel;
+using Com.Efrata.Service.Inventory.WebApi.Helpers;
 using Com.Moonlay.NetCore.Lib.Service;
 using Newtonsoft.Json;
 using System;
@@ -10,7 +10,7 @@ using System.Linq;
 using System.Text;
 using Xunit;
 
-namespace Com.Ambassador.Service.Inventory.Test.Helpers
+namespace Com.Efrata.Service.Inventory.Test.Helpers
 {
     public class ResultFormatterTest
     {

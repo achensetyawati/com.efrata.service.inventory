@@ -1,15 +1,15 @@
-﻿using Com.Ambassador.Service.Inventory.Lib;
-using Com.Ambassador.Service.Inventory.Lib.Helpers;
-using Com.Ambassador.Service.Inventory.Lib.Models.InventoryWeavingModel;
-using Com.Ambassador.Service.Inventory.Lib.ViewModels.InventoryWeavingViewModel.Report;
-using Com.Ambassador.Service.Inventory.Lib.Services.InventoryWeaving;
-using Com.Ambassador.Service.Inventory.Lib.Services.InventoryWeaving.Reports.ReportExpenseRecapGreigeWeaving;
-using Com.Ambassador.Service.Inventory.Lib.Services.InventoryWeaving.Reports.ReportGreigeWeavingPerGrade;
-using Com.Ambassador.Service.Inventory.Test.DataUtils.InventoryWeavingDataUtils.ReportGreigeWeavingPerGradeDataUtil;
-using Com.Ambassador.Service.Inventory.Test.DataUtils.InventoryWeavingDataUtils;
-using Com.Ambassador.Service.Inventory.Test.Helpers;
+﻿using Com.Efrata.Service.Inventory.Lib;
+using Com.Efrata.Service.Inventory.Lib.Helpers;
+using Com.Efrata.Service.Inventory.Lib.Models.InventoryWeavingModel;
+using Com.Efrata.Service.Inventory.Lib.ViewModels.InventoryWeavingViewModel.Report;
+using Com.Efrata.Service.Inventory.Lib.Services.InventoryWeaving;
+using Com.Efrata.Service.Inventory.Lib.Services.InventoryWeaving.Reports.ReportExpenseRecapGreigeWeaving;
+using Com.Efrata.Service.Inventory.Lib.Services.InventoryWeaving.Reports.ReportGreigeWeavingPerGrade;
+using Com.Efrata.Service.Inventory.Test.DataUtils.InventoryWeavingDataUtils.ReportGreigeWeavingPerGradeDataUtil;
+using Com.Efrata.Service.Inventory.Test.DataUtils.InventoryWeavingDataUtils;
+using Com.Efrata.Service.Inventory.Test.Helpers;
 using Com.Moonlay.NetCore.Lib;
-using Com.Ambassador.Service.Inventory.Lib.Services;
+using Com.Efrata.Service.Inventory.Lib.Services;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Diagnostics;
 using Moq;
@@ -22,7 +22,7 @@ using System.Runtime.CompilerServices;
 using System.Threading.Tasks;
 using Xunit;
 
-namespace Com.Ambassador.Service.Inventory.Test.Services.InventoryWeaving
+namespace Com.Efrata.Service.Inventory.Test.Services.InventoryWeaving
 {
     public class ReportExpenseRecapGreigeWeavingTest
     {

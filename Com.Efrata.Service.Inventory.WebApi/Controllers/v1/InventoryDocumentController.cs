@@ -1,8 +1,8 @@
-﻿using Com.Ambassador.Service.Inventory.Lib.Models.InventoryModel;
-using Com.Ambassador.Service.Inventory.Lib.Services;
-using Com.Ambassador.Service.Inventory.Lib.Services.Inventory;
-using Com.Ambassador.Service.Inventory.Lib.ViewModels.InventoryViewModel;
-using Com.Ambassador.Service.Inventory.WebApi.Helpers;
+﻿using Com.Efrata.Service.Inventory.Lib.Models.InventoryModel;
+using Com.Efrata.Service.Inventory.Lib.Services;
+using Com.Efrata.Service.Inventory.Lib.Services.Inventory;
+using Com.Efrata.Service.Inventory.Lib.ViewModels.InventoryViewModel;
+using Com.Efrata.Service.Inventory.WebApi.Helpers;
 using Com.Moonlay.NetCore.Lib.Service;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
@@ -11,7 +11,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 
-namespace Com.Ambassador.Service.Inventory.WebApi.Controllers.v1
+namespace Com.Efrata.Service.Inventory.WebApi.Controllers.v1
 {
     [Produces("application/json")]
     [ApiVersion("1.0")]

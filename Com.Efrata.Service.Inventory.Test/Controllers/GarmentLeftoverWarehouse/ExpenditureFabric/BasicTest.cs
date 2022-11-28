@@ -1,16 +1,16 @@
-﻿using Com.Ambassador.Service.Inventory.Lib.Models.GarmentLeftoverWarehouse.ExpenditureFabric;
-using Com.Ambassador.Service.Inventory.Lib.Services.GarmentLeftoverWarehouse.ExpenditureFabric;
-using Com.Ambassador.Service.Inventory.Lib.ViewModels;
-using Com.Ambassador.Service.Inventory.Lib.ViewModels.GarmentLeftoverWarehouse.ExpenditureFabric;
-using Com.Ambassador.Service.Inventory.Test.Helpers;
-using Com.Ambassador.Service.Inventory.WebApi.Controllers.v1.GarmentLeftoverWarehouse.ExpenditureFabric;
+﻿using Com.Efrata.Service.Inventory.Lib.Models.GarmentLeftoverWarehouse.ExpenditureFabric;
+using Com.Efrata.Service.Inventory.Lib.Services.GarmentLeftoverWarehouse.ExpenditureFabric;
+using Com.Efrata.Service.Inventory.Lib.ViewModels;
+using Com.Efrata.Service.Inventory.Lib.ViewModels.GarmentLeftoverWarehouse.ExpenditureFabric;
+using Com.Efrata.Service.Inventory.Test.Helpers;
+using Com.Efrata.Service.Inventory.WebApi.Controllers.v1.GarmentLeftoverWarehouse.ExpenditureFabric;
 using Moq;
 using System;
 using System.Collections.Generic;
 using System.Net;
 using Xunit;
 
-namespace Com.Ambassador.Service.Inventory.Test.Controllers.GarmentLeftoverWarehouse.ExpenditureFabric
+namespace Com.Efrata.Service.Inventory.Test.Controllers.GarmentLeftoverWarehouse.ExpenditureFabric
 {
     public class BasicTest : BaseControllerTest<GarmentLeftoverWarehouseExpenditureFabricController, GarmentLeftoverWarehouseExpenditureFabric, GarmentLeftoverWarehouseExpenditureFabricViewModel, IGarmentLeftoverWarehouseExpenditureFabricService>
     {

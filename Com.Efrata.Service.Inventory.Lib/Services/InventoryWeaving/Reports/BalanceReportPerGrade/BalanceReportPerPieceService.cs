@@ -1,12 +1,12 @@
-﻿using Com.Ambassador.Service.Inventory.Lib.Models.InventoryWeavingModel;
-using Com.Ambassador.Service.Inventory.Lib.Services.InventoryWeaving.Reports.ReportGreigeWeavingPerMonth;
+﻿using Com.Efrata.Service.Inventory.Lib.Models.InventoryWeavingModel;
+using Com.Efrata.Service.Inventory.Lib.Services.InventoryWeaving.Reports.ReportGreigeWeavingPerMonth;
 using Microsoft.EntityFrameworkCore;
 using System;
 using Microsoft.Extensions.DependencyInjection;
 using System.Collections.Generic;
 using System.Text;
 using System.Threading.Tasks;
-using Com.Ambassador.Service.Inventory.Lib.ViewModels.InventoryWeavingViewModel.Report;
+using Com.Efrata.Service.Inventory.Lib.ViewModels.InventoryWeavingViewModel.Report;
 using Com.Moonlay.NetCore.Lib;
 using System.Linq;
 using System.IO;
@@ -15,7 +15,7 @@ using System.Globalization;
 using OfficeOpenXml;
 using OfficeOpenXml.Style;
 
-namespace Com.Ambassador.Service.Inventory.Lib.Services.InventoryWeaving.Reports.BalanceReportPerGrade
+namespace Com.Efrata.Service.Inventory.Lib.Services.InventoryWeaving.Reports.BalanceReportPerGrade
 {
     public class BalanceReportPerPieceService : IBalanceReportPerPieceService
     {

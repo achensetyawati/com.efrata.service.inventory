@@ -1,9 +1,9 @@
-﻿using Com.Ambassador.Service.Inventory.Lib.Models.MaterialDistributionNoteModel;
-using Com.Ambassador.Service.Inventory.Lib.ViewModels.MaterialDistributionNoteViewModel;
+﻿using Com.Efrata.Service.Inventory.Lib.Models.MaterialDistributionNoteModel;
+using Com.Efrata.Service.Inventory.Lib.ViewModels.MaterialDistributionNoteViewModel;
 using System;
 using System.Collections.Generic;
 
-namespace Com.Ambassador.Service.Inventory.Lib.Services.MaterialDistributionNoteService
+namespace Com.Efrata.Service.Inventory.Lib.Services.MaterialDistributionNoteService
 {
     public interface IMaterialDistributionService : IBaseService<MaterialDistributionNote, MaterialDistributionNoteViewModel>
     {

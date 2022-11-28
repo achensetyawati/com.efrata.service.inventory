@@ -1,11 +1,11 @@
-﻿using Com.Ambassador.Service.Inventory.Lib.Helpers;
-using Com.Ambassador.Service.Inventory.Lib.Interfaces;
+﻿using Com.Efrata.Service.Inventory.Lib.Helpers;
+using Com.Efrata.Service.Inventory.Lib.Interfaces;
 using System;
 using System.Collections.Generic;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Com.Ambassador.Service.Inventory.Lib.Services
+namespace Com.Efrata.Service.Inventory.Lib.Services
 {
     public interface IBaseService<TModel, TViewModel> : IMap<TModel, TViewModel>
     {

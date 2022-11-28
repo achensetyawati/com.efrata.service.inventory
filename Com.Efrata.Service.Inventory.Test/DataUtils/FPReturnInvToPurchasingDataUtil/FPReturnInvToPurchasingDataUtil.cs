@@ -1,12 +1,12 @@
-﻿using Com.Ambassador.Service.Inventory.Lib.Models.FPReturnInvToPurchasingModel;
-using Com.Ambassador.Service.Inventory.Lib.Services.FpRegradingResultDocs;
-using Com.Ambassador.Service.Inventory.Lib.Services.FPReturnInvToPurchasingService;
-using Com.Ambassador.Service.Inventory.Lib.ViewModels;
-using Com.Ambassador.Service.Inventory.Lib.ViewModels.FPReturnInvToPurchasingViewModel;
+﻿using Com.Efrata.Service.Inventory.Lib.Models.FPReturnInvToPurchasingModel;
+using Com.Efrata.Service.Inventory.Lib.Services.FpRegradingResultDocs;
+using Com.Efrata.Service.Inventory.Lib.Services.FPReturnInvToPurchasingService;
+using Com.Efrata.Service.Inventory.Lib.ViewModels;
+using Com.Efrata.Service.Inventory.Lib.ViewModels.FPReturnInvToPurchasingViewModel;
 using System.Collections.Generic;
 using System.Threading.Tasks;
 
-namespace Com.Ambassador.Service.Inventory.Test.DataUtils.FPReturnInvToPurchasingDataUtil
+namespace Com.Efrata.Service.Inventory.Test.DataUtils.FPReturnInvToPurchasingDataUtil
 {
     public class FPReturnInvToPurchasingDataUtil
     {

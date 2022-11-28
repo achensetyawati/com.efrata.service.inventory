@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
 
-namespace Com.Ambassador.Service.Inventory.Lib.Models.FPReturnInvToPurchasingModel
+namespace Com.Efrata.Service.Inventory.Lib.Models.FPReturnInvToPurchasingModel
 {
     public class FPReturnInvToPurchasing : StandardEntity, IValidatableObject
     {
