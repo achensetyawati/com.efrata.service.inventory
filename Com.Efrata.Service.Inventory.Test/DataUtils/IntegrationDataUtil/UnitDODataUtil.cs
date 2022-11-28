@@ -1,11 +1,11 @@
-﻿using Com.Ambassador.Service.Inventory.Lib.ViewModels;
-using Com.Ambassador.Service.Inventory.WebApi.Helpers;
+﻿using Com.Efrata.Service.Inventory.Lib.ViewModels;
+using Com.Efrata.Service.Inventory.WebApi.Helpers;
 using Newtonsoft.Json;
 using System;
 using System.Collections.Generic;
 using System.Text;
 
-namespace Com.Ambassador.Service.Inventory.Test.DataUtils.IntegrationDataUtil
+namespace Com.Efrata.Service.Inventory.Test.DataUtils.IntegrationDataUtil
 {
     public class UnitDODataUtil
     {

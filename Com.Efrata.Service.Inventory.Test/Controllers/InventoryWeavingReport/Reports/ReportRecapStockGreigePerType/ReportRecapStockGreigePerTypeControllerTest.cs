@@ -1,8 +1,8 @@
-﻿using Com.Ambassador.Service.Inventory.Lib.Services;
-using Com.Ambassador.Service.Inventory.Lib.ViewModels.InventoryWeavingViewModel;
-using Com.Ambassador.Service.Inventory.Lib.Services.InventoryWeaving.Reports.ReportRecapStockGreigePerType;
-using Com.Ambassador.Service.Inventory.WebApi.Controllers.v1.WeavingInventory.Reports;
-using Com.Ambassador.Service.Inventory.Test.Helpers;
+﻿using Com.Efrata.Service.Inventory.Lib.Services;
+using Com.Efrata.Service.Inventory.Lib.ViewModels.InventoryWeavingViewModel;
+using Com.Efrata.Service.Inventory.Lib.Services.InventoryWeaving.Reports.ReportRecapStockGreigePerType;
+using Com.Efrata.Service.Inventory.WebApi.Controllers.v1.WeavingInventory.Reports;
+using Com.Efrata.Service.Inventory.Test.Helpers;
 using Com.Moonlay.NetCore.Lib.Service;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Http.Internal;
@@ -21,7 +21,7 @@ using System.Text;
 using System.Threading.Tasks;
 using Xunit;
 
-namespace Com.Ambassador.Service.Inventory.Test.Controllers.InventoryWeavingReport.Reports.ReportRecapStockGreigePerType
+namespace Com.Efrata.Service.Inventory.Test.Controllers.InventoryWeavingReport.Reports.ReportRecapStockGreigePerType
 {
     public class ReportRecapStockGreigePerTypeControllerTest
     {

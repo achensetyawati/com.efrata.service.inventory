@@ -4,7 +4,7 @@ using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
 using System.Text;
 
-namespace Com.Ambassador.Service.Inventory.Lib.Models.InventoryWeavingModel
+namespace Com.Efrata.Service.Inventory.Lib.Models.InventoryWeavingModel
 {
     public class InventoryWeavingDocument : StandardEntity, IValidatableObject
     {

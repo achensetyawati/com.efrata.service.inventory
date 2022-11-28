@@ -2,7 +2,7 @@
 using System;
 using System.Collections.Generic;
 
-namespace Com.Ambassador.Service.Inventory.Lib.Migrations
+namespace Com.Efrata.Service.Inventory.Lib.Migrations
 {
     public partial class ModifyDateTypeFPRegrading : Migration
     {

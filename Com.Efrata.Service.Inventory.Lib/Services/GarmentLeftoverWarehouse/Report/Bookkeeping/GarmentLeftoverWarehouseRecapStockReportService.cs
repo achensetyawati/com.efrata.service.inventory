@@ -1,4 +1,4 @@
-﻿using Com.Ambassador.Service.Inventory.Lib.ViewModels.GarmentLeftoverWarehouse.Report.Bookkeeping;
+﻿using Com.Efrata.Service.Inventory.Lib.ViewModels.GarmentLeftoverWarehouse.Report.Bookkeeping;
 using Com.Moonlay.NetCore.Lib;
 using Newtonsoft.Json;
 using OfficeOpenXml;
@@ -11,7 +11,7 @@ using System.Linq;
 using System.Linq.Dynamic.Core;
 using System.Text;
 
-namespace Com.Ambassador.Service.Inventory.Lib.Services.GarmentLeftoverWarehouse.Report.Bookkeeping
+namespace Com.Efrata.Service.Inventory.Lib.Services.GarmentLeftoverWarehouse.Report.Bookkeeping
 {
     public class GarmentLeftoverWarehouseRecapStockReportService : IGarmentLeftoverWarehouseRecapStockReportService
     {

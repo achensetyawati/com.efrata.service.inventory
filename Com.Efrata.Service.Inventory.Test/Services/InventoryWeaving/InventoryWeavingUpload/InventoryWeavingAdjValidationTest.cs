@@ -1,11 +1,11 @@
-﻿using Com.Ambassador.Service.Inventory.Lib.ViewModels.InventoryWeavingViewModel;
+﻿using Com.Efrata.Service.Inventory.Lib.ViewModels.InventoryWeavingViewModel;
 using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using Xunit;
 
-namespace Com.Ambassador.Service.Inventory.Test.Services.InventoryWeaving.InventoryWeavingUpload
+namespace Com.Efrata.Service.Inventory.Test.Services.InventoryWeaving.InventoryWeavingUpload
 {
     public class InventoryWeavingAdjValidationTest
     {

@@ -1,7 +1,7 @@
-﻿using Com.Ambassador.Service.Inventory.Lib.Enums;
+﻿using Com.Efrata.Service.Inventory.Lib.Enums;
 using Com.Moonlay.Models;
 
-namespace Com.Ambassador.Service.Inventory.Lib.Models.GarmentLeftoverWarehouse.Stock
+namespace Com.Efrata.Service.Inventory.Lib.Models.GarmentLeftoverWarehouse.Stock
 {
     public class GarmentLeftoverWarehouseStockHistory : StandardEntity
     {

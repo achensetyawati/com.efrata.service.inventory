@@ -6,7 +6,7 @@ using System.ComponentModel.DataAnnotations;
 using System.Linq;
 using System.Linq.Dynamic.Core;
 
-namespace Com.Ambassador.Service.Inventory.WebApi.Helpers
+namespace Com.Efrata.Service.Inventory.WebApi.Helpers
 {
     public class ResultFormatter
     {

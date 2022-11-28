@@ -4,7 +4,7 @@ using System.Net.Http;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Com.Ambassador.Service.Inventory.Lib.Services
+namespace Com.Efrata.Service.Inventory.Lib.Services
 {
     public interface IHttpService
     {

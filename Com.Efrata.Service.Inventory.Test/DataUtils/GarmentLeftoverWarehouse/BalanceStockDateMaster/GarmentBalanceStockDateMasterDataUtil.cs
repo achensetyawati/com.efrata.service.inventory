@@ -1,10 +1,10 @@
-﻿using Com.Ambassador.Service.Inventory.Lib.Models.GarmentLeftoverWarehouse.BalanceStockDateMaster;
-using Com.Ambassador.Service.Inventory.Lib.Services.GarmentLeftoverWarehouse.BalanceStockDateMaster;
+﻿using Com.Efrata.Service.Inventory.Lib.Models.GarmentLeftoverWarehouse.BalanceStockDateMaster;
+using Com.Efrata.Service.Inventory.Lib.Services.GarmentLeftoverWarehouse.BalanceStockDateMaster;
 using System;
 using System.Collections.Generic;
 using System.Text;
 
-namespace Com.Ambassador.Service.Inventory.Test.DataUtils.GarmentLeftoverWarehouse.BalanceStockDateMaster
+namespace Com.Efrata.Service.Inventory.Test.DataUtils.GarmentLeftoverWarehouse.BalanceStockDateMaster
 {
     public class GarmentBalanceStockDateMasterDataUtil
     {

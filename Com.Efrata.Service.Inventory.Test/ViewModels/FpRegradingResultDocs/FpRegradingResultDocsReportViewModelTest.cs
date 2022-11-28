@@ -1,10 +1,10 @@
-﻿using Com.Ambassador.Service.Inventory.Lib.ViewModels.FpRegradingResultDocs;
+﻿using Com.Efrata.Service.Inventory.Lib.ViewModels.FpRegradingResultDocs;
 using System;
 using System.Collections.Generic;
 using System.Text;
 using Xunit;
 
-namespace Com.Ambassador.Service.Inventory.Test.ViewModels.FpRegradingResultDocs
+namespace Com.Efrata.Service.Inventory.Test.ViewModels.FpRegradingResultDocs
 {
     public class FpRegradingResultDocsReportViewModelTest
     {

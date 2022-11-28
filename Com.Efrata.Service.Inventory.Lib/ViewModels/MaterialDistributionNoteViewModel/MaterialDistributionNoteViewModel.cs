@@ -1,12 +1,12 @@
-﻿using Com.Ambassador.Service.Inventory.Lib.Helpers;
-using Com.Ambassador.Service.Inventory.Lib.Models.InventoryModel;
-using Com.Ambassador.Service.Inventory.Lib.Services.Inventory;
+﻿using Com.Efrata.Service.Inventory.Lib.Helpers;
+using Com.Efrata.Service.Inventory.Lib.Models.InventoryModel;
+using Com.Efrata.Service.Inventory.Lib.Services.Inventory;
 using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
 using System.Linq;
 using Microsoft.Extensions.DependencyInjection;
 
-namespace Com.Ambassador.Service.Inventory.Lib.ViewModels.MaterialDistributionNoteViewModel
+namespace Com.Efrata.Service.Inventory.Lib.ViewModels.MaterialDistributionNoteViewModel
 {
     public class MaterialDistributionNoteViewModel : BasicViewModel, IValidatableObject
     {

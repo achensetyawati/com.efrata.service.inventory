@@ -1,14 +1,14 @@
-﻿using Com.Ambassador.Service.Inventory.Lib.Models.MaterialDistributionNoteModel;
-using Com.Ambassador.Service.Inventory.Lib.Services.MaterialDistributionNoteService;
-using Com.Ambassador.Service.Inventory.Lib.Services.MaterialRequestNoteServices;
-using Com.Ambassador.Service.Inventory.Lib.ViewModels;
-using Com.Ambassador.Service.Inventory.Lib.ViewModels.MaterialDistributionNoteViewModel;
-using Com.Ambassador.Service.Inventory.Test.Helpers;
+﻿using Com.Efrata.Service.Inventory.Lib.Models.MaterialDistributionNoteModel;
+using Com.Efrata.Service.Inventory.Lib.Services.MaterialDistributionNoteService;
+using Com.Efrata.Service.Inventory.Lib.Services.MaterialRequestNoteServices;
+using Com.Efrata.Service.Inventory.Lib.ViewModels;
+using Com.Efrata.Service.Inventory.Lib.ViewModels.MaterialDistributionNoteViewModel;
+using Com.Efrata.Service.Inventory.Test.Helpers;
 using System;
 using System.Collections.Generic;
 using System.Threading.Tasks;
 
-namespace Com.Ambassador.Service.Inventory.Test.DataUtils.MaterialDistributionNoteDataUtil
+namespace Com.Efrata.Service.Inventory.Test.DataUtils.MaterialDistributionNoteDataUtil
 {
     public class MaterialDistributionNoteDataUtil
     {

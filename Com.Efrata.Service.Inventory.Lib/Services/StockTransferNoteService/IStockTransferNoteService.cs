@@ -1,10 +1,10 @@
-﻿using Com.Ambassador.Service.Inventory.Lib.Models.StockTransferNoteModel;
-using Com.Ambassador.Service.Inventory.Lib.ViewModels.StockTransferNoteViewModel;
+﻿using Com.Efrata.Service.Inventory.Lib.Models.StockTransferNoteModel;
+using Com.Efrata.Service.Inventory.Lib.ViewModels.StockTransferNoteViewModel;
 using System;
 using System.Collections.Generic;
 using System.Threading.Tasks;
 
-namespace Com.Ambassador.Service.Inventory.Lib.Services.StockTransferNoteService
+namespace Com.Efrata.Service.Inventory.Lib.Services.StockTransferNoteService
 {
     public interface IStockTransferNoteService : IBaseService<StockTransferNote, StockTransferNoteViewModel>
     {

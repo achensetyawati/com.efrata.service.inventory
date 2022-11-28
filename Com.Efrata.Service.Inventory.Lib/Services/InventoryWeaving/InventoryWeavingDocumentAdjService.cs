@@ -1,17 +1,17 @@
-﻿using Com.Ambassador.Service.Inventory.Lib.Models.InventoryWeavingModel;
+﻿using Com.Efrata.Service.Inventory.Lib.Models.InventoryWeavingModel;
 using Microsoft.EntityFrameworkCore;
 using System;
 using System.Collections.Generic;
 using System.Text;
 using Microsoft.Extensions.DependencyInjection;
-using Com.Ambassador.Service.Inventory.Lib.Helpers;
+using Com.Efrata.Service.Inventory.Lib.Helpers;
 using System.Linq;
 using Newtonsoft.Json;
-using Com.Ambassador.Service.Inventory.Lib.ViewModels.InventoryWeavingViewModel;
+using Com.Efrata.Service.Inventory.Lib.ViewModels.InventoryWeavingViewModel;
 using System.Threading.Tasks;
 using Com.Moonlay.Models;
 
-namespace Com.Ambassador.Service.Inventory.Lib.Services.InventoryWeaving
+namespace Com.Efrata.Service.Inventory.Lib.Services.InventoryWeaving
 {
     public class InventoryWeavingDocumentAdjService : IInventoryWeavingDocumentAdjService
     {

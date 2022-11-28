@@ -1,8 +1,8 @@
-﻿using Com.Ambassador.Service.Inventory.Lib.Helpers;
+﻿using Com.Efrata.Service.Inventory.Lib.Helpers;
 using System;
 using System.Collections.Generic;
 
-namespace Com.Ambassador.Service.Inventory.Lib.ViewModels.MaterialDistributionNoteViewModel
+namespace Com.Efrata.Service.Inventory.Lib.ViewModels.MaterialDistributionNoteViewModel
 {
     public class MaterialDistributionNoteItemViewModel : BasicViewModel
     {

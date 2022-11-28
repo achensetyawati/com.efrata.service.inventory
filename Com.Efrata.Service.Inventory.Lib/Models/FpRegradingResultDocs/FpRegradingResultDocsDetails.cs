@@ -4,7 +4,7 @@ using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
 using System.Text;
 
-namespace Com.Ambassador.Service.Inventory.Lib.Models
+namespace Com.Efrata.Service.Inventory.Lib.Models
 {
     public class FpRegradingResultDocsDetails : StandardEntity, IValidatableObject
     {

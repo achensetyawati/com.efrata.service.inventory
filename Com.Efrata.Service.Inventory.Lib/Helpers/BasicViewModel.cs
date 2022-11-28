@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace Com.Ambassador.Service.Inventory.Lib.Helpers
+namespace Com.Efrata.Service.Inventory.Lib.Helpers
 {
     public class BasicViewModel
     {

@@ -4,7 +4,7 @@ using System.Collections.Generic;
 using System.Data;
 using System.IO;
 
-namespace Com.Ambassador.Service.Inventory.Lib.Helpers
+namespace Com.Efrata.Service.Inventory.Lib.Helpers
 {
     public static class Excel
     {

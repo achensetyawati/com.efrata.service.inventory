@@ -5,13 +5,13 @@ using System.Threading.Tasks;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Authorization;
-using Com.Ambassador.Service.Inventory.Lib.Models;
-using Com.Ambassador.Service.Inventory.Lib.Services;
-using Com.Ambassador.Service.Inventory.WebApi.Helpers;
-using Com.Ambassador.Service.Inventory.Lib.ViewModels;
-using Com.Ambassador.Service.Inventory.Lib.Services.FpRegradingResultDocs;
+using Com.Efrata.Service.Inventory.Lib.Models;
+using Com.Efrata.Service.Inventory.Lib.Services;
+using Com.Efrata.Service.Inventory.WebApi.Helpers;
+using Com.Efrata.Service.Inventory.Lib.ViewModels;
+using Com.Efrata.Service.Inventory.Lib.Services.FpRegradingResultDocs;
 
-namespace Com.Ambassador.Service.Inventory.WebApi.Controllers.v1.Loaders
+namespace Com.Efrata.Service.Inventory.WebApi.Controllers.v1.Loaders
 {
     [Produces("application/json")]
     [ApiVersion("1.0")]

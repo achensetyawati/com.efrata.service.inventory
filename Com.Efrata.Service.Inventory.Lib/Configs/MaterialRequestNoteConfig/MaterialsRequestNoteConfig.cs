@@ -1,8 +1,8 @@
-﻿using Com.Ambassador.Service.Inventory.Lib.Models.MaterialsRequestNoteModel;
+﻿using Com.Efrata.Service.Inventory.Lib.Models.MaterialsRequestNoteModel;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Metadata.Builders;
 
-namespace Com.Ambassador.Service.Inventory.Lib.Configs.MaterialsRequestNoteConfig
+namespace Com.Efrata.Service.Inventory.Lib.Configs.MaterialsRequestNoteConfig
 {
     public class MaterialsRequestNoteConfig : IEntityTypeConfiguration<MaterialsRequestNote>
     {

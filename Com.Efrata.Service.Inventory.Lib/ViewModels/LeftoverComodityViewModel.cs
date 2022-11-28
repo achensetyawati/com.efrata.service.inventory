@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace Com.Ambassador.Service.Inventory.Lib.ViewModels
+namespace Com.Efrata.Service.Inventory.Lib.ViewModels
 {
     public class LeftoverComodityViewModel
     {

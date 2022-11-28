@@ -1,7 +1,7 @@
 ﻿using Microsoft.AspNetCore;
 using Microsoft.AspNetCore.Hosting;
 
-namespace Com.Ambassador.Service.Inventory.WebApi
+namespace Com.Efrata.Service.Inventory.WebApi
 {
     public class Program
     {

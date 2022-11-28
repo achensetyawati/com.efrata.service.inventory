@@ -1,7 +1,7 @@
 ﻿using AutoMapper;
-using Com.Ambassador.Service.Inventory.Lib.Services;
-using Com.Ambassador.Service.Inventory.Lib.Services.InventoryWeaving.Reports.ReportGreigeWeavingPerGrade;
-using Com.Ambassador.Service.Inventory.WebApi.Helpers;
+using Com.Efrata.Service.Inventory.Lib.Services;
+using Com.Efrata.Service.Inventory.Lib.Services.InventoryWeaving.Reports.ReportGreigeWeavingPerGrade;
+using Com.Efrata.Service.Inventory.WebApi.Helpers;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using System;
@@ -11,7 +11,7 @@ using System.Net;
 using System.Threading.Tasks;
 using System.Globalization;
 
-namespace Com.Ambassador.Service.Inventory.WebApi.Controllers.v1.WeavingInventory.Reports.ReportGreigeWeavingPerGradeController
+namespace Com.Efrata.Service.Inventory.WebApi.Controllers.v1.WeavingInventory.Reports.ReportGreigeWeavingPerGradeController
 {
     [Produces("application/json")]
     [ApiVersion("1.0")]
