@@ -21,7 +21,7 @@ namespace Com.Efrata.Service.Inventory.Lib.Configs.GarmentLeftoverWarehouse.Garm
             builder.Property(p => p.LeftoverComodityName).HasMaxLength(255);
             builder.Property(p => p.LeftoverComodityCode).HasMaxLength(20);
             builder.Property(p => p.ComodityName).HasMaxLength(255);
-            builder.Property(p => p.ComodityCode).HasMaxLength(20);
+            builder.Property(p => p.ComodityCode).HasMaxLength(50);
         }
     }
 }
