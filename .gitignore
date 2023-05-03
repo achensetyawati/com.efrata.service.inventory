@@ -261,9 +261,9 @@ __pycache__/
 *.pyc
 
 # Launch Settings
-Com.Danliris.Service.Inventory.WebApi/Properties/launchSettings.json
-Com.Danliris.Service.Inventory.WebApi/appsettings.Development.json
-Com.Danliris.Service.Inventory.WebApi/appsettings.json
+Com.Efrata.Service.Inventory.WebApi/Properties/launchSettings.json
+*/appsettings.json
+*/appsettings.Development.json
 
 #vscode
 .vscode/
